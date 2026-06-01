@@ -1,0 +1,10 @@
+id: 98ebf68f-a60a-4e5d-b7f7-26e5c3c9cb96
+name: Articles
+order: 500
+path: /home/blog/:slug
+type: composition
+pathSegment: ':slug'
+data:
+  previewValue: ''
+compositionId: 7d91e551-83e1-44e2-8183-2b3e2c667980
+projectMapId: 2306e874-c252-4238-86a7-fe029f6141ff

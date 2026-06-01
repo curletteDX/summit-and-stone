@@ -1,0 +1,255 @@
+created: '2026-05-07T07:53:21.571569+00:00'
+modified: '2026-05-07T09:01:13.087875+00:00'
+pattern: false
+entry:
+  _id: b2dc3607-cae8-4261-8500-6e0a72f57001
+  _name: 'Family Fun This Summer: Unique Summit & Stone Getaways'
+  _slug: family-fun-this-summer-unique-summit-and-stone-getaways
+  _thumbnail: >-
+    https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/bwf5y4CbT2ajm-_SL_SYTA-christian-harb-0PwWDi3U6w8-unsplash.jpg
+  type: article
+  fields:
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: ad09c626-1664-4a59-89bc-3acc05c9cb53
+            type: image
+            fields:
+              id:
+                type: text
+                value: 512a8301-636a-42f0-b5ce-0399c3b5f516
+              url:
+                value: >-
+                  https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/bwf5y4CbT2ajm-_SL_SYTA-christian-harb-0PwWDi3U6w8-unsplash.jpg
+                type: text
+              file:
+                type: file
+                value: dc7593fc-9feb-4ef6-8acd-fb07a9b3f699
+              size:
+                value: 2659331
+                type: number
+              title:
+                type: text
+                value: Family hiking in the forest
+              width:
+                value: 3119
+                type: number
+              height:
+                value: 4160
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+              focalPoint:
+                value:
+                  x: 0.52
+                  'y': 0.65
+                type: focalPoint
+              description:
+                type: text
+                value: >-
+                  A family of three walking on a sunlit forest trail. The child
+                  is running ahead, while the adult on the right carries a baby
+                  in an orange carrier backpack, and the adult on the left walks
+                  with a backpack. The scene is surrounded by lush green trees.
+            _source: uniform-assets
+    title:
+      type: text
+      value: 'Family Fun This Summer: Unique Summit & Stone Getaways'
+    content:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Looking for summer trips that bring the whole family
+                      together? Summit & Stone has crafted one-of-a-kind
+                      getaways for every age and interest in 2026!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: ol
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Nature Trail Treasure Hunts:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Interactive hikes with clues, challenges, and rewards for explorers of all sizes. (Pro tip: parents are allowed to compete too.)'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Summer Kids’ Camps:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Hands-on learning, new friendships, and safe, confident exploration of the outdoors. "I can''t wait until next year" is our favorite camp review.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Family Paddle Days:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Kayak, paddleboard, or canoe—everyone’s welcome, no experience needed. We provide the gear, snacks, and encouragement. Splashing is encouraged.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Picnic with a View:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Mountain meadows and alpine lakes set the stage for unforgettable lunches (and nap-worthy scenery).'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Parent & Child Adventure Clinics:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Bond and learn new skills together, from basic navigation to campfire cooking. Nobody’s grading your s’mores technique.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: number
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Reserve your family experience today—space is limited for
+                      these exclusive summer adventures. 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://www.summitandstone.com/book-family-adventures
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Book now
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - mode: normal
+                    text: ' and make this your family’s most memorable season yet.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    summary:
+      type: text
+      value: >-
+        Discover summer adventures for every family—explore unique trips,
+        hands-on camps, paddle days, and more from Summit & Stone, all Trail
+        Tested and Peak Approved.
+    publishedAt:
+      type: datetime
+      value:
+        datetime: '2026-05-07T00:00:00Z'
+        timeZone: UTC
+  _locales:
+    - en-US

@@ -1,0 +1,42 @@
+asset:
+  type: image
+  _id: 6b470a70-0ad7-4b5e-8b33-a318de72ce9a
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Latest news and views
+    description:
+      type: text
+      value: >-
+        A webpage section titled “Latest News and Views” showing three article
+        cards with large outdoor travel images, bold headlines, and short
+        preview text. The cards feature hikers in a forest, backpacks against a
+        stone wall, and a person facing a mountain landscape.
+    file:
+      type: file
+      value: 0ff33e83-c76a-45e2-8591-d6abe9e3f754
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/eWBct9DDTdGegjKVupp03A-Screenshot-Latest-Articles.png
+      type: text
+    size:
+      value: 976465
+      type: number
+    width:
+      value: 1560
+      type: number
+    height:
+      value: 864
+      type: number
+    focalPoint:
+      value:
+        x: 0.5
+        'y': 0.15
+      type: focalPoint
+    custom: {}
+created: '2026-05-22T06:35:43.211928+00:00'
+modified: '2026-05-22T06:35:43.211928+00:00'

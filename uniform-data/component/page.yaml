@@ -30,6 +30,11 @@ slots:
     allowedComponents:
       - herosection
       - contentBlock
+      - latestArticles
+      - $loop
+      - blogarticledetail
+      - imageWithText
+      - topicCards
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
@@ -42,4 +47,4 @@ slots:
 titleParameter: title
 canBeComposition: true
 created: '2026-05-05T10:00:26.57672+00:00'
-updated: '2026-05-06T12:26:39.521186+00:00'
+updated: '2026-05-22T15:37:51.089283+00:00'

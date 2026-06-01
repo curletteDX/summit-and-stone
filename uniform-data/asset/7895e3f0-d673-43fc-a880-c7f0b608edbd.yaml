@@ -1,0 +1,42 @@
+asset:
+  type: image
+  _id: 7895e3f0-d673-43fc-a880-c7f0b608edbd
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Summit & Stone
+    description:
+      type: text
+      value: >-
+        A mountain hiking scene with two people walking along a trail through
+        green brush, with snowy peaks and cloudy skies in the background. Large
+        white text on the left reads “Summit & Stone,” with smaller text below
+        saying “Welcome to our site.”
+    file:
+      type: file
+      value: 28a05f47-66d3-4a8b-9140-aa54955575dc
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/6kPCrlryTiKD2s92WYkBbA-Screenshot-2026-05-22-at-9.33.10-AM.png
+      type: text
+    size:
+      value: 2303772
+      type: number
+    width:
+      value: 1672
+      type: number
+    height:
+      value: 842
+      type: number
+    focalPoint:
+      value:
+        x: 0.73
+        'y': 0.56
+      type: focalPoint
+    custom: {}
+created: '2026-05-22T06:33:45.98395+00:00'
+modified: '2026-05-22T06:33:45.98395+00:00'

@@ -1,0 +1,72 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: blogarticledetail
+name: Blog Article Detail
+icon: card
+parameters:
+  - id: title
+    name: Title
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: summary
+    name: Summary
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: content
+    name: Content
+    type: richText
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: date
+    name: Date
+    type: datetime
+    typeConfig: null
+  - id: image
+    name: Image
+    type: asset
+    typeConfig:
+      allowedTypes:
+        - image
+    localizable: true
+categoryId: 454ce62a-0640-4c88-a5e2-1bd34c6eaaba
+previewImageUrl: >-
+  https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/eNVv8Cx-TcWveJHIzukyCw-Screenshot-Blog-Article-Detail.png
+useTeamPermissions: true
+slots: []
+titleParameter: title
+thumbnailParameter: image
+canBeComposition: false
+created: '2026-05-07T11:26:20.873719+00:00'
+updated: '2026-05-22T06:39:27.165814+00:00'

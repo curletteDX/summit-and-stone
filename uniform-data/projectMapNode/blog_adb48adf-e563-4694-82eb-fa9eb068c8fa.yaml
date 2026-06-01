@@ -1,0 +1,8 @@
+id: adb48adf-e563-4694-82eb-fa9eb068c8fa
+name: Blog
+order: 500
+path: /home/blog
+type: placeholder
+pathSegment: blog
+data: {}
+projectMapId: 2306e874-c252-4238-86a7-fe029f6141ff

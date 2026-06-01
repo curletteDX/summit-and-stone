@@ -1,0 +1,41 @@
+asset:
+  type: image
+  _id: 0ba15d09-05fb-4c3a-99f9-59e600330873
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Screenshot Blog Article Intro
+    description:
+      type: text
+      value: >-
+        A screenshot of a blog article intro card featuring a family hiking on a
+        wooded trail, with a large headline reading “Family Fun This Summer:
+        Unique Summit & Stone Getaways” and a short teaser paragraph below.
+    file:
+      type: file
+      value: 4923692d-4235-47d4-8542-69140171ad80
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/rtQWE3q-SfSK2KgElkmdhw-Screenshot-Blog-Article-Intro.png
+      type: text
+    size:
+      value: 319148
+      type: number
+    width:
+      value: 488
+      type: number
+    height:
+      value: 646
+      type: number
+    focalPoint:
+      value:
+        x: 0.53
+        'y': 0.25
+      type: focalPoint
+    custom: {}
+created: '2026-05-22T06:35:43.211928+00:00'
+modified: '2026-05-22T06:35:43.211928+00:00'

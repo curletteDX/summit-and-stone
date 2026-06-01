@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: topicCards
+name: Topic Cards
+icon: screen
+parameters:
+  - id: heading
+    name: Heading
+    type: text
+    guidance: Optional section heading
+    localizable: true
+useTeamPermissions: true
+slots:
+  - id: cards
+    name: Cards
+    allowedComponents:
+      - topicCard
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: heading
+canBeComposition: false
+created: '2026-05-22T15:37:32.660202+00:00'
+updated: '2026-05-22T15:37:32.660202+00:00'

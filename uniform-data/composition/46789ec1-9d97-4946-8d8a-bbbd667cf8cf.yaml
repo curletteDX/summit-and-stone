@@ -77,6 +77,312 @@ composition:
           $internal_displayName:
             type: text
             value: Hero
+      - _id: de2321c9-4085-4361-bf7c-8b60587cc4c3
+        type: imageWithText
+        parameters:
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: 19c9a246-4c69-4163-9b40-e686c035fbb9
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 60647ea9-6b66-4a13-9f60-3a7004cdc0b6
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/vxnV7D2DS56jJfRDuU8mHQ-ali-kazal-YsrWdRIt5cs-unsplash.jpg
+                      type: text
+                    file:
+                      type: file
+                      value: 16bf1cdb-05b8-4b91-88c4-354f32091254
+                    size:
+                      value: 2963114
+                      type: number
+                    title:
+                      type: text
+                      value: Ali Kazal
+                    width:
+                      value: 6000
+                      type: number
+                    height:
+                      value: 4000
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                    focalPoint:
+                      value:
+                        x: 0.56
+                        'y': 0.62
+                      type: focalPoint
+                    description:
+                      type: text
+                      value: >-
+                        A person with a backpack hiking through a dense
+                        evergreen forest with a large snow-capped mountain in
+                        the background under an overcast sky.
+                  _source: uniform-assets
+          content:
+            type: richText
+            locales:
+              en-US:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 'Welcome to Summit & Stone, where '
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                        - mode: normal
+                          text: Climb Without Compromise
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                        - mode: normal
+                          text: ' is more than a tagline. Whether you’re chasing your first summit, planning a thru-hike, or just need a jacket that laughs at rain, we test our gear so you can focus on getting outside.'
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 'What you’ll find:'
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                    - tag: ul
+                      type: list
+                      start: 1
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - type: listitem
+                          value: 1
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Trail Tested, Peak Approved Gear:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' No gimmicks. Just equipment we trust on real trails and real rock.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                        - type: listitem
+                          value: 2
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Honest Advice:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' Straight answers on what works, what doesn’t, and what’s right for your kind of adventure.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                        - type: listitem
+                          value: 3
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Welcoming Community:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' Every experience level and every budget belongs here.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                      listType: bullet
+                      direction: null
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            The right gear changes everything. Packs should ride
+                            well. Layers should breathe. Water systems should
+                            make it easier to keep moving, not easier to forget
+                            to hydrate.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            You don’t need the most expensive setup. You need
+                            gear that fits your trip, your body, and your style.
+                            That’s why we focus on practical picks, honest
+                            tradeoffs, and equipment built for the long trail.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 'Ready to gear up for '
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                        - mode: normal
+                          text: your mountain, your way
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                        - mode: normal
+                          text: '? Dive in. If you have questions, ask.'
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                  direction: null
+          heading:
+            type: text
+            locales:
+              en-US: Mountain Hiking Starts Here
+          subheading:
+            type: text
+            locales:
+              en-US: >-
+                Trail-tested gear, honest advice, and a welcoming community for
+                every kind of outdoor adventure.
+          imagePosition:
+            type: select
+            value: left
+      - _id: 677241a8-c5e0-4410-b5e2-480fa786406a
+        type: topicCards
+        slots:
+          cards:
+            - _id: cfaf0687-f714-45ba-aa76-5e47b78a6589
+              type: topicCard
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /hiking
+                    type: url
+                title:
+                  type: text
+                  locales:
+                    en-US: Hiking
+                description:
+                  type: text
+                  locales:
+                    en-US: Trails, summits, and scenic routes for every skill level.
+            - _id: 2069e4ca-64ce-4627-a9d3-cae5cb3f5e98
+              type: topicCard
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /biking
+                    type: url
+                title:
+                  type: text
+                  locales:
+                    en-US: Biking
+                description:
+                  type: text
+                  locales:
+                    en-US: Single tracks, gravel paths, and mountain descents.
+            - _id: c005f382-a2cb-45b9-8b8a-10e3042685d9
+              type: topicCard
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /climbing
+                    type: url
+                title:
+                  type: text
+                  locales:
+                    en-US: Climbing
+                description:
+                  type: text
+                  locales:
+                    en-US: Crags, walls, and routes from beginner to advanced.
       - _id: f2d01d76-fce3-4f7d-9795-96aacc58492c
         type: contentBlock
         parameters:
@@ -253,8 +559,60 @@ composition:
             value: >-
               Summit & Stone – Trail Tested Gear. Honest Advice. Welcoming
               Community.
+      - _id: 8c20bce0-d549-4ad3-b004-d5843799defc
+        type: latestArticles
+        slots:
+          articles:
+            - _id: 80a6c119-cf82-430a-9965-6c4343a63ff0
+              type: $loop
+              slots:
+                body:
+                  - _id: 09ef3f12-68b4-4938-a7da-1a949433dbe0
+                    type: blogarticleintro
+                    parameters:
+                      link:
+                        type: link
+                        value:
+                          path: /home/blog/${#jptr:/articles/entry/_slug}
+                          type: projectMapNode
+                          nodeId: 98ebf68f-a60a-4e5d-b7f7-26e5c3c9cb96
+                          projectMapId: 2306e874-c252-4238-86a7-fe029f6141ff
+                          dynamicInputValues:
+                            slug: ${#jptr:/articles/entry/_slug}
+                      image:
+                        type: asset
+                        locales:
+                          en-US: ${#jptr:/articles/entry/fields/image/value}
+                      title:
+                        type: text
+                        locales:
+                          en-US: ${#jptr:/articles/entry/fields/title/value}
+                      summary:
+                        type: text
+                        locales:
+                          en-US: ${#jptr:/articles/entry/fields/summary/value}
+              _dataResources:
+                articles:
+                  type: sys-reserved-loop
+                  variables:
+                    connectedData: '#jptr:/Article List Content/entries:fa=c'
+        parameters:
+          heading:
+            type: text
+            locales:
+              en-US: Latest Articles
+  _dataResources:
+    Article List Content:
+      type: articleList
+      variables:
+        limit: '3'
+        locale: ${locale}
+        search: ''
+        filters: '{"type[eq]":"article"}'
+        orderBy: created_at_ASC
+        contentTypes: article
   _locales:
     - en-US
 created: '2026-05-05T10:11:27.278704+00:00'
-modified: '2026-05-06T14:39:15.369598+00:00'
+modified: '2026-05-22T15:38:18.119518+00:00'
 pattern: false

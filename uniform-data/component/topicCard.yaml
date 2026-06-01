@@ -1,33 +1,35 @@
 # yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
-id: herosection
-name: Hero Section
-icon: image-text
+id: topicCard
+name: Topic Card
+icon: screen
 parameters:
   - id: title
     name: Title
     type: text
-    typeConfig: null
+    guidance: Short topic name like Hiking, Biking, Climbing
     localizable: true
-  - id: subtitle
-    name: Subtitle
+  - id: description
+    name: Description
     type: text
-    typeConfig: null
+    guidance: Brief description of the topic, 1-2 sentences
     localizable: true
   - id: image
     name: Image
     type: asset
+    guidance: Topic card background image
     typeConfig:
       allowedTypes:
         - image
     localizable: true
-categoryId: ef80a8bc-73d0-40ed-ad3b-a85ee514da87
-previewImageUrl: >-
-  https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/6kPCrlryTiKD2s92WYkBbA-Screenshot-2026-05-22-at-9.33.10-AM.png
+  - id: link
+    name: Link
+    type: link
+    guidance: URL to the topic page
 useTeamPermissions: true
 slots: []
 titleParameter: title
 thumbnailParameter: image
 canBeComposition: false
-created: '2026-05-05T10:01:26.629649+00:00'
-updated: '2026-05-22T06:40:04.7587+00:00'
+created: '2026-05-22T15:37:31.152253+00:00'
+updated: '2026-05-22T15:37:31.152253+00:00'

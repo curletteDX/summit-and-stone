@@ -1,0 +1,287 @@
+created: '2026-05-07T07:53:21.472883+00:00'
+modified: '2026-05-07T09:00:53.714048+00:00'
+pattern: false
+entry:
+  _id: 08b98930-f7e3-4e24-aed8-10fcb714a64b
+  _name: 'Summer Gear Guide 2026: Essential Picks for Your Adventure'
+  _slug: summer-gear-guide-2026-essential-picks-for-your-adventure
+  _thumbnail: >-
+    https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/oxA_x6iqTDOgTZI_c-jZCw-donna-elliot-G4llEcLvNVc-unsplash.jpg
+  type: article
+  fields:
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 0dc92527-de6e-441e-8762-5aa6cee4414d
+            type: image
+            fields:
+              id:
+                type: text
+                value: 490e6ec8-df28-43ec-af8c-573e0fc28788
+              url:
+                value: >-
+                  https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/oxA_x6iqTDOgTZI_c-jZCw-donna-elliot-G4llEcLvNVc-unsplash.jpg
+                type: text
+              file:
+                type: file
+                value: a417521c-72f1-477e-b7b1-c0bfbd92fcca
+              size:
+                value: 3038216
+                type: number
+              title:
+                type: text
+                value: Hiking backpacks resting in rocky mountain landscape
+              width:
+                value: 3024
+                type: number
+              height:
+                value: 4032
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+              focalPoint:
+                value:
+                  x: 0.5
+                  'y': 0.6
+                type: focalPoint
+              description:
+                type: text
+                value: >-
+                  Two hiking backpacks, one blue and one red, are placed against
+                  a stone wall with rugged mountain peaks and patches of snow in
+                  the background under a cloudy sky. Hiking gear, including
+                  ropes and poles, is attached to the backpacks.
+            _source: uniform-assets
+    title:
+      type: text
+      value: 'Summer Gear Guide 2026: Essential Picks for Your Adventure'
+    content:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: '2026 Gear Guide: Trail Tested, Peak Approved'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Ready to make this summer one for the books? Our crew at
+                      Summit & Stone has logged the miles, scouted the summits,
+                      and stumbled over a few roots so you don’t have to. Here’s
+                      our no-nonsense, all-fun guide to the must-have gear for
+                      2026:
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Ultralight Backpacks:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Hike farther, feel lighter. Weekend escapes or multi-day treks—these packs barely tip the scale, so you can bring an extra snack or three.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Eco Smart Water Bottles:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Hydrate like you mean it (and help the planet while you’re at it). No plastic guilt here—just cold water for hot trails.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Trail Shoes:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Every trail, every toe—grip where you need it, durability that actually lasts. Your ankles can thank us later.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Quick-Dry Activewear:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Stay cool, stay dry, stay comfortable. Because a sweaty hike is fine—soggy shorts are not.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Adventure Gadgets:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' GPS, smartwatches, solar chargers—the stuff that makes Type II fun a whole lot easier (and sometimes helps you call home).'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Not sure what fits your adventure style? Swing by our shop
+                      or browse 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://summitandstone.com
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: online
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - mode: normal
+                    text: >-
+                      . Our adventure nerds will geek out right alongside you
+                      and make sure you get the 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: right tool for the journey
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: . Climb Without Compromise—see you out there.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    summary:
+      type: text
+      value: >-
+        Get ready for summer adventures with our honest picks for durable,
+        trail-tested gear—no hype, just the right tools to help you climb
+        without compromise.
+    publishedAt:
+      type: datetime
+      value:
+        datetime: '2026-05-07T00:00:00.000Z'
+        timeZone: UTC
+  _locales:
+    - en-US

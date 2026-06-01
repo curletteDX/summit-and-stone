@@ -4,6 +4,15 @@ import ContentBlock from "@/components/ContentBlock";
 import LatestArticles from "@/components/LatestArticles";
 import BlogArticleIntro from "@/components/BlogArticleIntro";
 import BlogArticleDetail from "@/components/BlogArticleDetail";
+import ImageWithText from "@/components/ImageWithText";
+import TopicCards from "@/components/TopicCards";
+import TopicCard from "@/components/TopicCard";
+import Page from "@/components/Page";
+
+registerUniformComponent({
+  type: "page",
+  component: Page,
+});
 
 registerUniformComponent({
   type: "herosection",
@@ -28,4 +37,19 @@ registerUniformComponent({
 registerUniformComponent({
   type: "blogarticledetail",
   component: BlogArticleDetail,
+});
+
+registerUniformComponent({
+  type: "imageWithText",
+  component: ImageWithText,
+});
+
+registerUniformComponent({
+  type: "topicCards",
+  component: TopicCards,
+});
+
+registerUniformComponent({
+  type: "topicCard",
+  component: TopicCard,
 });

@@ -1,0 +1,41 @@
+asset:
+  type: image
+  _id: 17abba6d-e716-417f-97f6-6125c29256d5
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Summit & Stone – Trail Tested Gear. Honest Advice. Welcoming Community.
+    description:
+      type: text
+      value: >-
+        A webpage content block for Summit & Stone with a large headline,
+        introductory paragraph, and bullet points describing trail-tested gear,
+        honest advice, and a welcoming outdoor community.
+    file:
+      type: file
+      value: 31c2ab95-0af4-4b1c-b91b-365c63c21c71
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/Pi4rrvnuSjKgLs0TDDoOeQ-Screenshot-Content-Block.png
+      type: text
+    size:
+      value: 209575
+      type: number
+    width:
+      value: 1178
+      type: number
+    height:
+      value: 886
+      type: number
+    focalPoint:
+      value:
+        x: 0.5
+        'y': 0.18
+      type: focalPoint
+    custom: {}
+created: '2026-05-22T06:39:01.797909+00:00'
+modified: '2026-05-22T06:39:01.797909+00:00'

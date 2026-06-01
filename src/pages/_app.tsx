@@ -1,3 +1,15 @@
+import type { RootComponentInstance } from "@uniformdev/canvas";
+import { UniformComposition } from "@uniformdev/canvas-react";
+import {
+  Context,
+  ManifestV2,
+  ContextPlugin,
+  enableDebugConsoleLogDrain,
+  enableContextDevTools,
+} from "@uniformdev/context";
+
+import { UniformContext } from "@uniformdev/context-react";
+
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import { NavBar } from "../components/NavBar";
@@ -14,13 +26,22 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const context = new Context({
+  defaultConsent: true,
+  manifest: {
+    project: {},
+  },
+});
+
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div
-      className={`${geistSans.className} min-h-screen bg-zinc-50 font-sans dark:bg-black`}
-    >
-      <NavBar />
-      <Component {...pageProps} />
-    </div>
+    <UniformContext context={context}>
+      <div
+        className={`${geistSans.className} min-h-screen bg-zinc-50 font-sans dark:bg-black`}
+      >
+        <NavBar />
+        <Component {...pageProps} />
+      </div>
+    </UniformContext>
   );
 }

@@ -1,0 +1,41 @@
+asset:
+  type: image
+  _id: 9aa2bf0e-1eea-490d-bae7-7370b5a22345
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: 'Family Fun This Summer: Unique Summit & Stone Getaways'
+    description:
+      type: text
+      value: >-
+        A webpage screenshot featuring a large headline about family summer
+        adventures, a short introductory paragraph, and a hero image of people
+        hiking together on a forest trail.
+    file:
+      type: file
+      value: b6764015-d648-4a36-a2da-c62be3e4b7f4
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/eNVv8Cx-TcWveJHIzukyCw-Screenshot-Blog-Article-Detail.png
+      type: text
+    size:
+      value: 2350177
+      type: number
+    width:
+      value: 1186
+      type: number
+    height:
+      value: 1446
+      type: number
+    focalPoint:
+      value:
+        x: 0.5
+        'y': 0.74
+      type: focalPoint
+    custom: {}
+created: '2026-05-22T06:39:01.797909+00:00'
+modified: '2026-05-22T06:39:01.797909+00:00'

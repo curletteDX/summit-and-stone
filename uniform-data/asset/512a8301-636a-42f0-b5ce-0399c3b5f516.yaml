@@ -1,0 +1,42 @@
+asset:
+  type: image
+  _id: 512a8301-636a-42f0-b5ce-0399c3b5f516
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Family hiking in the forest
+    description:
+      type: text
+      value: >-
+        A family of three walking on a sunlit forest trail. The child is running
+        ahead, while the adult on the right carries a baby in an orange carrier
+        backpack, and the adult on the left walks with a backpack. The scene is
+        surrounded by lush green trees.
+    file:
+      type: file
+      value: dc7593fc-9feb-4ef6-8acd-fb07a9b3f699
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/bwf5y4CbT2ajm-_SL_SYTA-christian-harb-0PwWDi3U6w8-unsplash.jpg
+      type: text
+    size:
+      value: 2659331
+      type: number
+    width:
+      value: 3119
+      type: number
+    height:
+      value: 4160
+      type: number
+    focalPoint:
+      value:
+        x: 0.52
+        'y': 0.65
+      type: focalPoint
+    custom: {}
+created: '2026-05-07T07:57:30.864975+00:00'
+modified: '2026-05-07T07:57:30.864975+00:00'

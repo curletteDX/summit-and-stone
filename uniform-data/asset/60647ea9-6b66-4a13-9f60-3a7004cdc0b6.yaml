@@ -1,0 +1,40 @@
+asset:
+  type: image
+  _id: 60647ea9-6b66-4a13-9f60-3a7004cdc0b6
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Ali Kazal
+    description:
+      type: text
+      value: >-
+        A person with a backpack hiking through a dense evergreen forest with a
+        large snow-capped mountain in the background under an overcast sky.
+    file:
+      type: file
+      value: 16bf1cdb-05b8-4b91-88c4-354f32091254
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/vxnV7D2DS56jJfRDuU8mHQ-ali-kazal-YsrWdRIt5cs-unsplash.jpg
+      type: text
+    size:
+      value: 2963114
+      type: number
+    width:
+      value: 6000
+      type: number
+    height:
+      value: 4000
+      type: number
+    focalPoint:
+      value:
+        x: 0.56
+        'y': 0.62
+      type: focalPoint
+    custom: {}
+created: '2026-05-07T08:05:29.918806+00:00'
+modified: '2026-05-07T08:05:29.918806+00:00'

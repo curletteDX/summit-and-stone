@@ -1,0 +1,42 @@
+asset:
+  type: image
+  _id: 490e6ec8-df28-43ec-af8c-573e0fc28788
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Hiking backpacks resting in rocky mountain landscape
+    description:
+      type: text
+      value: >-
+        Two hiking backpacks, one blue and one red, are placed against a stone
+        wall with rugged mountain peaks and patches of snow in the background
+        under a cloudy sky. Hiking gear, including ropes and poles, is attached
+        to the backpacks.
+    file:
+      type: file
+      value: a417521c-72f1-477e-b7b1-c0bfbd92fcca
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/oxA_x6iqTDOgTZI_c-jZCw-donna-elliot-G4llEcLvNVc-unsplash.jpg
+      type: text
+    size:
+      value: 3038216
+      type: number
+    width:
+      value: 3024
+      type: number
+    height:
+      value: 4032
+      type: number
+    focalPoint:
+      value:
+        x: 0.5
+        'y': 0.6
+      type: focalPoint
+    custom: {}
+created: '2026-05-07T08:03:35.493272+00:00'
+modified: '2026-05-07T08:03:35.493272+00:00'

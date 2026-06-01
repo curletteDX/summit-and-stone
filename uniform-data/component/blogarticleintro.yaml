@@ -1,16 +1,16 @@
 # yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
-id: herosection
-name: Hero Section
-icon: image-text
+id: blogarticleintro
+name: Blog Article Intro
+icon: card
 parameters:
   - id: title
     name: Title
     type: text
     typeConfig: null
     localizable: true
-  - id: subtitle
-    name: Subtitle
+  - id: summary
+    name: Summary
     type: text
     typeConfig: null
     localizable: true
@@ -21,13 +21,20 @@ parameters:
       allowedTypes:
         - image
     localizable: true
-categoryId: ef80a8bc-73d0-40ed-ad3b-a85ee514da87
+  - id: link
+    name: Link
+    type: link
+    typeConfig:
+      linkTypes:
+        tel: false
+        email: false
+categoryId: cb27e2ea-a67a-454f-8512-63cc0913057f
 previewImageUrl: >-
-  https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/6kPCrlryTiKD2s92WYkBbA-Screenshot-2026-05-22-at-9.33.10-AM.png
+  https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/rtQWE3q-SfSK2KgElkmdhw-Screenshot-Blog-Article-Intro.png
 useTeamPermissions: true
 slots: []
 titleParameter: title
 thumbnailParameter: image
 canBeComposition: false
-created: '2026-05-05T10:01:26.629649+00:00'
-updated: '2026-05-22T06:40:04.7587+00:00'
+created: '2026-05-07T09:47:14.326726+00:00'
+updated: '2026-05-22T06:36:26.933269+00:00'

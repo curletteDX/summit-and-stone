@@ -1,0 +1,42 @@
+asset:
+  type: image
+  _id: 4f4e3713-5f48-47e2-9cee-99614675002a
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Screenshot Page Composition
+    description:
+      type: text
+      value: >-
+        A website landing page screenshot with a large hero image of two hikers
+        walking on a mountain trail, overlaid with the text “Summit & Stone” and
+        “Welcome to our site.” Below the hero section is a bold headline
+        introducing trail-tested gear and a welcoming community.
+    file:
+      type: file
+      value: eff968a9-b148-453f-a09a-61d7fd6b3c84
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/Oiozhi4RSC-nlPln4RZrrQ-Screenshot-Page-Composition.png
+      type: text
+    size:
+      value: 2383030
+      type: number
+    width:
+      value: 1658
+      type: number
+    height:
+      value: 1372
+      type: number
+    focalPoint:
+      value:
+        x: 0.72
+        'y': 0.43
+      type: focalPoint
+    custom: {}
+created: '2026-05-22T06:41:47.350276+00:00'
+modified: '2026-05-22T06:41:47.350276+00:00'

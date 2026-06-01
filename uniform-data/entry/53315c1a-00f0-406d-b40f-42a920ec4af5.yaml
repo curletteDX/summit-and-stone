@@ -1,0 +1,267 @@
+created: '2026-05-07T07:53:21.769194+00:00'
+modified: '2026-05-07T08:54:12.841417+00:00'
+pattern: false
+entry:
+  _id: 53315c1a-00f0-406d-b40f-42a920ec4af5
+  _name: 'Kick Off Summer 2026: Top 5 Outdoor Experiences from Summit...'
+  _slug: kick-off-summer-2026-top-5-outdoor-experiences-from-summit
+  _thumbnail: >-
+    https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/vxnV7D2DS56jJfRDuU8mHQ-ali-kazal-YsrWdRIt5cs-unsplash.jpg
+  type: article
+  fields:
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: b41cb030-35a3-459b-bdc0-7568a4da3856
+            type: image
+            fields:
+              id:
+                type: text
+                value: 60647ea9-6b66-4a13-9f60-3a7004cdc0b6
+              url:
+                value: >-
+                  https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/vxnV7D2DS56jJfRDuU8mHQ-ali-kazal-YsrWdRIt5cs-unsplash.jpg
+                type: text
+              file:
+                type: file
+                value: 16bf1cdb-05b8-4b91-88c4-354f32091254
+              size:
+                value: 2963114
+                type: number
+              title:
+                type: text
+                value: Ali Kazal
+              width:
+                value: 6000
+                type: number
+              height:
+                value: 4000
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+              focalPoint:
+                value:
+                  x: 0.56
+                  'y': 0.62
+                type: focalPoint
+              description:
+                type: text
+                value: >-
+                  A person with a backpack hiking through a dense evergreen
+                  forest with a large snow-capped mountain in the background
+                  under an overcast sky.
+            _source: uniform-assets
+    title:
+      type: text
+      value: 'Kick Off Summer 2026: Top 5 Outdoor Experiences from Summit & Stone'
+    content:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Kick Off the 2026 Summer Season with Summit & Stone!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Whether you’re a thrill-seeker or just looking to relax
+                      and recharge in nature, we’ve scouted, climbed, and camped
+                      to create the ultimate list. Here are our top 5
+                      experiences for an unforgettable summer adventure:
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Mountain Sunrise Hikes:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Start your day the best way—panoramic views, birdsong, peace, and maybe even hot coffee. That top-of-the-world feeling? We think everyone deserves it.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Guided Paddleboard Tours:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Glide across crystal-clear lakes with our expert guides. Laugh at your wobbles—so do we. Bonus: secret swim spots and floating picnics.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Weekend Wilderness Camps:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' The perfect reset for families, couples, or solo adventurers. Build skills, stoke the campfire, and create trail stories worth retelling.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Alpine Climbing Escapades:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Take on new heights in confidence. Our curated clinics welcome all levels—because every summit has to start somewhere.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Starlit Campfire Nights:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Marshmallows optional, epic stories mandatory. Make friends, swap trip tips, and count shooting stars (we’ll show you how).'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Ready for a season of stories? '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Book your spot
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' and check out our special Summer 2026 packages. '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      Let’s make this your best season yet—your mountain, your
+                      way.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 2
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    summary:
+      type: text
+      value: >-
+        Get inspired for Summer 2026 with Summit & Stone’s top 5 outdoor
+        experiences—honest advice, trail-tested adventures, and gear that helps
+        you climb without compromise.
+    publishedAt:
+      type: datetime
+      value:
+        datetime: '2026-05-07T00:00:00Z'
+        timeZone: UTC
+  _locales:
+    - en-US

@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: latestArticles
+name: Latest Articles
+icon: view-cols
+parameters:
+  - id: heading
+    name: Heading
+    type: text
+    typeConfig: null
+    localizable: true
+categoryId: cb27e2ea-a67a-454f-8512-63cc0913057f
+previewImageUrl: >-
+  https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/eWBct9DDTdGegjKVupp03A-Screenshot-Latest-Articles.png
+useTeamPermissions: true
+slots:
+  - id: articles
+    name: Articles
+    allowedComponents:
+      - blogarticleintro
+      - $loop
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: heading
+canBeComposition: false
+created: '2026-05-07T09:44:34.490068+00:00'
+updated: '2026-05-22T06:36:55.527502+00:00'

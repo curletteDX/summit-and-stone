@@ -1,13 +1,19 @@
 # yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
-id: contentBlock
-name: Content Block
-icon: card
+id: imageWithText
+name: Image With Text
+icon: image-text
 parameters:
   - id: heading
     name: Heading
     type: text
     typeConfig: null
+    localizable: true
+  - id: subheading
+    name: Subheading
+    type: text
+    typeConfig: null
+    localizable: true
   - id: content
     name: Content
     type: richText
@@ -20,13 +26,12 @@ parameters:
           - h4
           - h5
           - h6
+          - unorderedList
+          - orderedList
           - link
-          - code
           - table
           - asset
           - variable
-          - unorderedList
-          - orderedList
       required: false
       formatting:
         builtIn:
@@ -36,12 +41,28 @@ parameters:
         asset:
           allowedTypes:
             - image
-            - video
-categoryId: cb498c82-0b7e-4c3e-a5f0-7a9b99acbd38
-previewImageUrl: >-
-  https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/Pi4rrvnuSjKgLs0TDDoOeQ-Screenshot-Content-Block.png
+    localizable: true
+  - id: image
+    name: Image
+    type: asset
+    typeConfig:
+      allowedTypes:
+        - image
+    localizable: true
+  - id: imagePosition
+    name: Image Position
+    type: select
+    typeConfig:
+      editor: select
+      options:
+        - text: Left
+          value: left
+        - text: Right
+          value: right
 useTeamPermissions: true
 slots: []
+titleParameter: heading
+thumbnailParameter: image
 canBeComposition: false
-created: '2026-05-06T12:26:29.199182+00:00'
-updated: '2026-05-22T06:39:51.325338+00:00'
+created: '2026-05-22T14:56:50.448014+00:00'
+updated: '2026-05-22T15:22:52.109177+00:00'
