@@ -1,0 +1,112 @@
+id: product
+name: Product
+created: '2026-06-01T13:50:17.078179+00:00'
+updated: '2026-06-01T13:50:17.078179+00:00'
+slugSettings: {}
+useTeamPermissions: true
+fields:
+  - id: title
+    name: Title
+    type: text
+    guidance: Product name used across listings and detail pages.
+    typeConfig:
+      required: true
+    localizable: true
+  - id: shortDescription
+    name: Short Description
+    type: text
+    guidance: One or two sentences for cards and featured sections.
+    typeConfig:
+      required: true
+    localizable: true
+  - id: description
+    name: Description
+    type: richText
+    guidance: Detailed product description for the product detail page.
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: primaryImage
+    name: Primary Image
+    type: asset
+    guidance: Main product image.
+    typeConfig:
+      required: true
+      allowedTypes:
+        - image
+    localizable: true
+  - id: category
+    name: Category
+    type: multi-select
+    guidance: Choose one or more product categories such as Hiking, Climbing, or Biking.
+    typeConfig:
+      min: 1
+      options:
+        - text: Hiking
+          value: hiking
+        - text: Climbing
+          value: climbing
+        - text: Biking
+          value: biking
+      required: true
+  - id: price
+    name: Price
+    type: number
+    guidance: Current selling price.
+    typeConfig:
+      min: 0
+      required: false
+  - id: featured
+    name: Featured
+    type: checkbox
+    guidance: Turn on to feature this product in promotional sections.
+  - id: available
+    name: Available
+    type: checkbox
+    guidance: Turn on when the product is available to purchase.
+  - id: shopifyHandle
+    name: Shopify Handle
+    type: text
+    guidance: Optional Shopify product handle for linking or integration.
+  - id: buyLink
+    name: Buy Link
+    type: link
+    guidance: Optional direct purchase link, such as a Shopify product URL.
+entryName: title
+thumbnailField: primaryImage
+description: >-
+  Structured product content for merchandising, category pages, and product
+  detail pages, with optional Shopify references.
+icon: file-document
+type: contentType
+permissions: []
+previewConfigurations: []

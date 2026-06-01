@@ -1,0 +1,146 @@
+created: '2026-06-01T13:51:54.669838+00:00'
+modified: '2026-06-01T15:40:10.80627+00:00'
+pattern: false
+entry:
+  _id: 283051e5-3b14-4f47-9972-cf74f797192b
+  _name: Summit Carbon Poles
+  _slug: summit-carbon-poles
+  _thumbnail: >-
+    https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/JRXs6SeCTbyrqPXGUtaaSA-summit-poles.avif
+  type: product
+  fields:
+    price:
+      type: number
+      value: 99
+    title:
+      type: text
+      locales:
+        en-US: Summit Carbon Poles
+    buyLink:
+      type: link
+      value:
+        path: /products/summit-carbon-poles
+        type: url
+    category:
+      type: multi-select
+      value:
+        - hiking
+    featured:
+      type: checkbox
+      value: 'true'
+    available:
+      type: checkbox
+      value: 'true'
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Meet the Summit Carbon Poles: lightweight trekking poles
+                      built to keep you moving strong from the first mile to the
+                      last. The carbon construction trims weight without giving
+                      up the confidence you want on steep climbs, loose
+                      descents, and long days under load.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Adjustable length lets you fine-tune your fit for changing
+                      terrain, while the reliable grip stays secure when your
+                      hands are sweaty, cold, or just plain tired. When the
+                      trail opens up or it’s time to stash them, the compact
+                      packable design makes them easy to collapse and carry.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The result is simple: more stability, less strain, and
+                      reduced fatigue on long hikes. Trail tested, peak
+                      approved.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    primaryImage:
+      type: asset
+      locales:
+        en-US:
+          - _id: 0568930d-d4ff-424e-9b4f-f798c8a367a3
+            type: image
+            fields:
+              id:
+                type: text
+                value: d870eca8-3bfd-4595-8a9a-e4aac193d8c1
+              url:
+                value: >-
+                  https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/JRXs6SeCTbyrqPXGUtaaSA-summit-poles.avif
+                type: text
+              file:
+                type: file
+                value: 6a50fdc1-1d46-41d6-b072-5e299659f20a
+              size:
+                value: 48676
+                type: number
+              title:
+                type: text
+                value: summit-poles.avif
+              width:
+                value: 823
+                type: number
+              height:
+                value: 1800
+                type: number
+              mediaType:
+                value: image/avif
+                type: text
+            _source: uniform-assets
+    shopifyHandle:
+      type: text
+      value: summit-carbon-poles
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          Ultralight trekking poles that add stability on steep climbs, rough
+          descents, and long trail days.
+  _locales:
+    - en-US

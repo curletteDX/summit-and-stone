@@ -1,0 +1,222 @@
+composition:
+  _name: Topic Cards Pattern
+  _id: 357b801b-431a-4226-b965-df5b00f5a0f3
+  type: topicCards
+  parameters:
+    heading:
+      type: text
+      locales:
+        en-US: Hike with US
+  slots:
+    cards:
+      - _id: cfaf0687-f714-45ba-aa76-5e47b78a6589
+        type: topicCard
+        parameters:
+          link:
+            type: link
+            value:
+              path: /biking
+              type: url
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: 1e0498e0-7b56-4c9d-9223-871d4459b693
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.unsplash.com/photo-1534146789009-76ed5060ec70?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxiaWtpbmd8ZW58MHx8fHwxNzc5NDY0Njc0fDA&ixlib=rb-4.1.0&q=85
+                    title:
+                      type: text
+                      value: man riding bike on cliff at daytime
+                    width:
+                      type: number
+                      value: 2649
+                    custom:
+                      type: object
+                      value:
+                        color: '#262626'
+                        apiUrl: >-
+                          https://api.unsplash.com/photos/man-riding-bike-on-cliff-at-daytime-9qsK2QHidmg
+                        blurHash: LbAnM{Rjayof.Tayj[j[Itofj[WB
+                        sourceId: 9qsK2QHidmg
+                        createdAt: '2018-08-13T07:55:13Z'
+                        detailUrl: >-
+                          https://unsplash.com/photos/man-riding-bike-on-cliff-at-daytime-9qsK2QHidmg
+                        updatedAt: '2026-05-22T10:31:43Z'
+                        authorName: Dmitrii Vaccinium
+                        downloadUrl: >-
+                          https://unsplash.com/photos/9qsK2QHidmg/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxiaWtpbmd8ZW58MHx8fHwxNzc5NDY0Njc0fDA
+                        photoRawUrl: >-
+                          https://images.unsplash.com/photo-1534146789009-76ed5060ec70?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxiaWtpbmd8ZW58MHx8fHwxNzc5NDY0Njc0fDA&ixlib=rb-4.1.0
+                        photoFullUrl: >-
+                          https://images.unsplash.com/photo-1534146789009-76ed5060ec70?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxiaWtpbmd8ZW58MHx8fHwxNzc5NDY0Njc0fDA&ixlib=rb-4.1.0&q=85
+                        photoSmallUrl: >-
+                          https://images.unsplash.com/photo-1534146789009-76ed5060ec70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxiaWtpbmd8ZW58MHx8fHwxNzc5NDY0Njc0fDA&ixlib=rb-4.1.0&q=80&w=400
+                        photoThumbUrl: >-
+                          https://images.unsplash.com/photo-1534146789009-76ed5060ec70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxiaWtpbmd8ZW58MHx8fHwxNzc5NDY0Njc0fDA&ixlib=rb-4.1.0&q=80&w=200
+                        authorUsername: vaccinium
+                        photoRegularUrl: >-
+                          https://images.unsplash.com/photo-1534146789009-76ed5060ec70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxiaWtpbmd8ZW58MHx8fHwxNzc5NDY0Njc0fDA&ixlib=rb-4.1.0&q=80&w=1080
+                        authorProfileUrl: https://unsplash.com/@vaccinium
+                        downloadLocation: >-
+                          https://api.unsplash.com/photos/9qsK2QHidmg/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxiaWtpbmd8ZW58MHx8fHwxNzc5NDY0Njc0fDA
+                        authorProfileImage: >-
+                          https://images.unsplash.com/profile-1627324142435-6dd9ed2993d6image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                    height:
+                      type: number
+                      value: 3762
+                    description:
+                      type: text
+                      value: Photo by Dmitrii Vaccinium on Unsplash
+                  _source: unisplash-aa215bbd-c336-466a-9bc6-19963bab7ff1
+          title:
+            type: text
+            locales:
+              en-US: BIKING
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Mountain biking routes, scenic rides, and trail tips for every
+                skill level.
+      - _id: 2069e4ca-64ce-4627-a9d3-cae5cb3f5e98
+        type: topicCard
+        parameters:
+          link:
+            type: link
+            value:
+              path: /climbing
+              type: url
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: 7b1e48b0-6a71-4801-92b1-dbc696f46d6e
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.unsplash.com/photo-1502126324834-38f8e02d7160?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxjbGltYmluZ3xlbnwwfHx8fDE3Nzk0NjQ4NzR8MA&ixlib=rb-4.1.0&q=85
+                    title:
+                      type: text
+                      value: photo of man climbing mountain
+                    width:
+                      type: number
+                      value: 4272
+                    custom:
+                      type: object
+                      value:
+                        color: '#262626'
+                        apiUrl: >-
+                          https://api.unsplash.com/photos/photo-of-man-climbing-mountain-IQxcuHBF7Uo
+                        blurHash: 'LVCa3].AD%W?yFWZMwbH4nMxxZs:'
+                        sourceId: IQxcuHBF7Uo
+                        createdAt: '2017-08-07T17:19:14Z'
+                        detailUrl: >-
+                          https://unsplash.com/photos/photo-of-man-climbing-mountain-IQxcuHBF7Uo
+                        updatedAt: '2026-05-22T10:56:14Z'
+                        authorName: Brad Barmore
+                        downloadUrl: >-
+                          https://unsplash.com/photos/IQxcuHBF7Uo/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxjbGltYmluZ3xlbnwwfHx8fDE3Nzk0NjQ4NzR8MA
+                        photoRawUrl: >-
+                          https://images.unsplash.com/photo-1502126324834-38f8e02d7160?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxjbGltYmluZ3xlbnwwfHx8fDE3Nzk0NjQ4NzR8MA&ixlib=rb-4.1.0
+                        photoFullUrl: >-
+                          https://images.unsplash.com/photo-1502126324834-38f8e02d7160?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxjbGltYmluZ3xlbnwwfHx8fDE3Nzk0NjQ4NzR8MA&ixlib=rb-4.1.0&q=85
+                        photoSmallUrl: >-
+                          https://images.unsplash.com/photo-1502126324834-38f8e02d7160?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxjbGltYmluZ3xlbnwwfHx8fDE3Nzk0NjQ4NzR8MA&ixlib=rb-4.1.0&q=80&w=400
+                        photoThumbUrl: >-
+                          https://images.unsplash.com/photo-1502126324834-38f8e02d7160?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxjbGltYmluZ3xlbnwwfHx8fDE3Nzk0NjQ4NzR8MA&ixlib=rb-4.1.0&q=80&w=200
+                        authorUsername: bradbarmore
+                        photoRegularUrl: >-
+                          https://images.unsplash.com/photo-1502126324834-38f8e02d7160?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxjbGltYmluZ3xlbnwwfHx8fDE3Nzk0NjQ4NzR8MA&ixlib=rb-4.1.0&q=80&w=1080
+                        authorProfileUrl: https://unsplash.com/@bradbarmore
+                        downloadLocation: >-
+                          https://api.unsplash.com/photos/IQxcuHBF7Uo/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxjbGltYmluZ3xlbnwwfHx8fDE3Nzk0NjQ4NzR8MA
+                        authorProfileImage: >-
+                          https://images.unsplash.com/profile-1768740247131-2bc77358445aimage?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                    height:
+                      type: number
+                      value: 2848
+                    description:
+                      type: text
+                      value: Photo by Brad Barmore on Unsplash
+                  _source: unisplash-aa215bbd-c336-466a-9bc6-19963bab7ff1
+          title:
+            type: text
+            locales:
+              en-US: CLIMBING
+          description:
+            type: text
+            locales:
+              en-US: Single tracks, gravel paths, and mountain descents.
+      - _id: c005f382-a2cb-45b9-8b8a-10e3042685d9
+        type: topicCard
+        parameters:
+          link:
+            type: link
+            value:
+              path: /hiking
+              type: url
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: 8118341b-9dfc-45b3-8a69-d9a03f4b42ab
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: faa34dab-e3a1-4910-80eb-3f20e76c9593
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/nJrDUhJMTMiol9MRfwhjJA-toomas-tartes-Yizrl9N_eDA-unsplash.jpg
+                      type: text
+                    file:
+                      type: file
+                      value: 4522588d-3200-4385-8df3-0b8876895d24
+                    size:
+                      value: 4173633
+                      type: number
+                    title:
+                      type: text
+                      value: Hikers walking towards snow-capped mountains
+                    width:
+                      value: 4592
+                      type: number
+                    height:
+                      value: 3064
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                    focalPoint:
+                      value:
+                        x: 0.7
+                        'y': 0.6
+                      type: focalPoint
+                    description:
+                      type: text
+                      value: >-
+                        Two hikers with backpacks walking on a trail through a
+                        green mountainous landscape, heading towards a range of
+                        snow-capped peaks under a partly cloudy sky.
+                  _source: uniform-assets
+          title:
+            type: text
+            locales:
+              en-US: HIKING
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Explore scenic trails, mountain views, and practical hiking tips
+                for every experience level.
+  _locales:
+    - en-US
+created: '2026-05-22T15:56:56.526977+00:00'
+modified: '2026-05-22T15:56:56.526977+00:00'
+pattern: true

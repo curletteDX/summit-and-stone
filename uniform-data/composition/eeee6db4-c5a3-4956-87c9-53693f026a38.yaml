@@ -1,0 +1,380 @@
+composition:
+  _name: Climbing
+  _id: eeee6db4-c5a3-4956-87c9-53693f026a38
+  type: page
+  parameters:
+    title:
+      type: text
+      locales:
+        en-US: Climbing Gear, Tips & Guides | Summit & Stone
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Explore climbing routes, practical techniques, and fresh inspiration
+          for every level—from first gym sessions to big wall goals. Climb
+          Without Compromise.
+  slots:
+    content:
+      - _id: 4f065c76-e9ec-4abf-85f8-87d8ae9b6895
+        type: herosection
+        parameters:
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: 4a2db5e7-bcc9-40e6-bbf6-34ce47a519c4
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 18a43e2d-d448-4e35-99c3-bc246f739e66
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/wVAz2507SESOKW8csqUrpw-nathan-dumlao-pLoMDKtl-JY-unsplash.jpg
+                      type: text
+                    size:
+                      value: 924155
+                      type: number
+                    title:
+                      type: text
+                      value: Nathan Dumlao pLoMDKtl JY unsplash
+                    width:
+                      value: 3960
+                      type: number
+                    height:
+                      value: 2640
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                    focalPoint:
+                      value:
+                        x: 0.75
+                        'y': 0.7
+                      type: focalPoint
+                    description:
+                      type: text
+                      value: >-
+                        A scenic overlook featuring two people standing on a
+                        rock formation with a vast mountainous landscape and
+                        dense forest stretching into the distance under a soft,
+                        diffused sky.
+                  _source: uniform-assets
+                  _overrides:
+                    fields: {}
+          title:
+            type: text
+            locales:
+              en-US: Climb Without Compromise
+          subtitle:
+            type: text
+            locales:
+              en-US: >-
+                For the routes that test your grit, reward your movement, and
+                keep your eyes on bigger lines.
+      - _id: 5cb4605c-580c-48d6-9b9d-a89a6971bc41
+        type: contentBlock
+        parameters:
+          content:
+            type: richText
+            value:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Why Climbing Keeps Pulling You Back
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Climbing has a way of making you feel focused fast.
+                          One minute you’re thinking about work, errands, or
+                          what you forgot in the car. The next, it’s just you,
+                          the wall, the rock, and the next move. That mix of
+                          problem-solving, movement, and trust is what keeps so
+                          many climbers coming back.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          What makes climbing compelling is that it meets you
+                          where you are. You can start in a gym, learn the
+                          basics outside, or spend years refining technique on
+                          routes that still humble you in the best way. Strength
+                          helps, sure, but climbing is also about balance,
+                          footwork, patience, and staying calm when the move
+                          looks awkward. Sometimes the strongest climber is just
+                          the one who remembers to breathe.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Beginner Tips for Safety and Technique
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Learn the basics from a qualified instructor or
+                              experienced partner.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Good habits matter early. Belaying, knot tying, checking harnesses, and clear communication are skills worth learning the right way from day one.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Double-check everything.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Before you leave the ground, check your harness, knot, belay setup, and partner system. A quick check takes seconds and can prevent serious mistakes.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Use your feet more than you think.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' New climbers often try to pull with their arms for every move. Instead, focus on placing your feet carefully and standing up through your legs. It’s more efficient and way less tiring.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Keep your arms straight when you can.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Hanging on bent arms burns energy fast. Relax your grip, straighten your arms, and let your skeleton do some of the work.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 5
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Climb with control.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Fast, rushed movement usually leads to missed footholds and wasted energy. Slow down, look for your next position, and move with intention.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 6
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Communicate clearly.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Whether you’re in a gym or outside, use simple, agreed-upon commands with your partner. Good communication is part of good safety.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 7
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Respect the grade, but don’t obsess over it.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Grades are useful, not personal. A route that teaches you something is a good route, even if it doesn’t look impressive on paper.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: bullet
+                    direction: null
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Build Skills Steadily
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best climbers aren’t usually the ones who rush.
+                          They’re the ones who build solid habits, practice
+                          often, and stay curious. Start with movement, balance,
+                          and trust in your feet. Add strength over time. Ask
+                          questions. Rest when you need to. Repeat routes to
+                          learn what better technique feels like.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Most of all, give yourself room to grow. Climbing
+                          rewards consistency more than ego. Show up, learn a
+                          little each session, and enjoy the process. Your
+                          mountain, your way.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+          heading:
+            type: text
+            value: Climbing Gear That Earns Its Place
+  _locales:
+    - en-US
+created: '2026-05-22T15:50:59.548955+00:00'
+modified: '2026-05-22T15:50:59.548955+00:00'
+pattern: false

@@ -333,56 +333,106 @@ composition:
             value: left
       - _id: 677241a8-c5e0-4410-b5e2-480fa786406a
         type: topicCards
+        _pattern: 357b801b-431a-4226-b965-df5b00f5a0f3
+      - _id: bd72eaa7-dd1c-4eb9-8fcb-9319cd7b82f4
+        type: featuredProducts
         slots:
-          cards:
-            - _id: cfaf0687-f714-45ba-aa76-5e47b78a6589
-              type: topicCard
+          products:
+            - _id: ac130f57-30b4-4a0e-bc94-9f60b9b47fac
+              type: productCard
               parameters:
                 link:
                   type: link
                   value:
-                    path: /hiking
+                    path: /products/alpine-trail-pack-28
                     type: url
+                price:
+                  type: number
+                  value: 129
                 title:
                   type: text
                   locales:
-                    en-US: Hiking
+                    en-US: Alpine Trail Pack 28
+                category:
+                  type: multi-select
+                  value:
+                    - hiking
+                available:
+                  type: checkbox
+                  value: 'true'
                 description:
                   type: text
                   locales:
-                    en-US: Trails, summits, and scenic routes for every skill level.
-            - _id: 2069e4ca-64ce-4627-a9d3-cae5cb3f5e98
-              type: topicCard
+                    en-US: >-
+                      A lightweight 28-liter day pack built for long hikes,
+                      steady miles, and fast summit pushes.
+            - _id: 421ea7bd-5e43-4dec-8572-9f8c67a75c3c
+              type: productCard
               parameters:
                 link:
                   type: link
                   value:
-                    path: /biking
+                    path: /products/ridge-shell-jacket
                     type: url
+                price:
+                  type: number
+                  value: 189
                 title:
                   type: text
                   locales:
-                    en-US: Biking
+                    en-US: Ridge Shell Jacket
+                category:
+                  type: multi-select
+                  value:
+                    - hiking
+                available:
+                  type: checkbox
+                  value: 'true'
                 description:
                   type: text
                   locales:
-                    en-US: Single tracks, gravel paths, and mountain descents.
-            - _id: c005f382-a2cb-45b9-8b8a-10e3042685d9
-              type: topicCard
+                    en-US: >-
+                      A waterproof hiking shell built for changing weather,
+                      windy ridgelines, and year-round layering.
+            - _id: 14d65714-2288-47ff-91d4-68306a841b53
+              type: productCard
               parameters:
                 link:
                   type: link
                   value:
-                    path: /climbing
+                    path: /products/summit-carbon-poles
                     type: url
+                price:
+                  type: number
+                  value: 99
                 title:
                   type: text
                   locales:
-                    en-US: Climbing
+                    en-US: Summit Carbon Poles
+                category:
+                  type: multi-select
+                  value:
+                    - hiking
+                available:
+                  type: checkbox
+                  value: 'true'
                 description:
                   type: text
                   locales:
-                    en-US: Crags, walls, and routes from beginner to advanced.
+                    en-US: >-
+                      Ultralight trekking poles that add stability on steep
+                      climbs, rough descents, and long trail days.
+        parameters:
+          heading:
+            type: text
+            locales:
+              en-US: Featured Hiking Gear
+          subheading:
+            type: text
+            locales:
+              en-US: >-
+                Trail-ready picks for day hikes, weather shifts, and long miles
+                in the mountains.
       - _id: f2d01d76-fce3-4f7d-9795-96aacc58492c
         type: contentBlock
         parameters:
@@ -614,5 +664,5 @@ composition:
   _locales:
     - en-US
 created: '2026-05-05T10:11:27.278704+00:00'
-modified: '2026-05-22T15:38:18.119518+00:00'
+modified: '2026-06-01T15:39:24.821499+00:00'
 pattern: false

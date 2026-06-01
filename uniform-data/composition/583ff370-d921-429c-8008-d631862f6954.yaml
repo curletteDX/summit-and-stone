@@ -1,0 +1,338 @@
+composition:
+  _name: Hiking
+  _id: 583ff370-d921-429c-8008-d631862f6954
+  type: page
+  parameters:
+    title:
+      type: text
+      locales:
+        en-US: Hiking Adventures, Trail Guides & Gear Tips | Summit & Stone
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Explore hiking trails, practical tips, and fresh inspiration for
+          adventures in Washington and beyond with Summit & Stone.
+  slots:
+    content:
+      - _id: dfb0b1a5-d3e1-4d3e-a618-7dbf7b552551
+        type: herosection
+        parameters:
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: d6ee3dc6-b81c-47a6-8811-0b18cac571aa
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: faa34dab-e3a1-4910-80eb-3f20e76c9593
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/nJrDUhJMTMiol9MRfwhjJA-toomas-tartes-Yizrl9N_eDA-unsplash.jpg
+                      type: text
+                    size:
+                      value: 4173633
+                      type: number
+                    title:
+                      type: text
+                      value: Hikers walking towards snow-capped mountains
+                    width:
+                      value: 4592
+                      type: number
+                    height:
+                      value: 3064
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                    focalPoint:
+                      value:
+                        x: 0.7
+                        'y': 0.6
+                      type: focalPoint
+                    description:
+                      type: text
+                      value: >-
+                        Two hikers with backpacks walking on a trail through a
+                        green mountainous landscape, heading towards a range of
+                        snow-capped peaks under a partly cloudy sky.
+                  _source: uniform-assets
+                  _overrides:
+                    fields: {}
+          title:
+            type: text
+            locales:
+              en-US: Your Mountain, Your Way
+          subtitle:
+            type: text
+            locales:
+              en-US: Hit the trail, breathe deep, and find your next adventure.
+      - _id: 81bc5a01-0461-4360-af72-7fe67da3fd51
+        type: contentBlock
+        parameters:
+          content:
+            type: richText
+            value:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Why Hiking Is Worth It
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Hiking is one of the simplest ways to get outside,
+                          clear your head, and reconnect with the world beyond
+                          your screen. You do not need to summit a massive peak
+                          or buy a garage full of gear to get started. A local
+                          trail, a good pair of shoes, and a little curiosity
+                          are enough.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          What makes hiking so rewarding? It slows you down in
+                          the best way. You notice changing light through the
+                          trees, the sound of water nearby, and the kind of
+                          quiet that is hard to find in everyday life. It is
+                          also a solid way to build strength and confidence,
+                          whether you are heading out for a one-mile loop or
+                          working up to bigger days on the trail. Your mountain,
+                          your way.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Beginner Tips for a Better First Hike
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Start small.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Choose a shorter trail with modest elevation so you can enjoy the experience without burning out.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Check the basics.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Look up the weather, trail conditions, distance, and parking details before you leave.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Bring water and snacks.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Even an easy hike feels better when you are hydrated and have something to refuel with.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Wear what works.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Comfortable shoes with decent grip matter more than fancy gear.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 5
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Take your time.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Hiking is not a race. Stop for views, catch your breath, and settle into your own pace.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 6
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Leave no trace.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Pack out trash, stay on the trail, and help keep wild places worth visiting.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: bullet
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          If you are new to hiking, local trails are the perfect
+                          place to begin. They are easier to fit into a busy
+                          schedule, easier to repeat, and a great way to learn
+                          what kind of terrain and distance you enjoy most.
+                          Every experienced hiker started somewhere, and often
+                          it was closer to home than you would think.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          So pick a trail nearby and go see where it leads. You
+                          do not need a huge plan. Just start walking. Trail
+                          tested, peak approved.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+          heading:
+            type: text
+            value: Hit the Trail with Confidence
+  _locales:
+    - en-US
+created: '2026-05-22T15:50:46.651733+00:00'
+modified: '2026-05-22T15:50:46.651733+00:00'
+pattern: false

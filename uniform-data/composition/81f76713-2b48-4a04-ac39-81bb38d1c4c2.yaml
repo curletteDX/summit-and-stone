@@ -1,0 +1,461 @@
+composition:
+  _name: Biking
+  _id: 81f76713-2b48-4a04-ac39-81bb38d1c4c2
+  type: page
+  parameters:
+    title:
+      type: text
+      locales:
+        en-US: Biking Adventures | Trails, Gear & Riding Tips | Summit & Stone
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Explore biking routes, practical tips, and fresh adventure inspiration
+          to help you ride farther, plan smarter, and enjoy every mile outdoors.
+  slots:
+    content:
+      - _id: 37961f52-fa97-43dd-8607-2e9a7ac2cac4
+        type: herosection
+        parameters:
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: 7551f748-bc03-4c4c-b4df-e228f294f23d
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.unsplash.com/photo-1511994298241-608e28f14fde?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxiaWtpbmd8ZW58MHx8fHwxNzc5NDY0Njc0fDA&ixlib=rb-4.1.0&q=85
+                    title:
+                      type: text
+                      value: Patrick Hendry
+                    width:
+                      type: number
+                      value: 8688
+                    custom:
+                      type: object
+                      value:
+                        color: '#594040'
+                        apiUrl: >-
+                          https://api.unsplash.com/photos/orange-and-black-off-road-bicycle-on-hill-1ow9zrlldJU
+                        blurHash: L:IgJvV[kCfP~AWBbHj?-VaybHf6
+                        sourceId: 1ow9zrlldJU
+                        createdAt: '2017-11-29T22:25:39Z'
+                        detailUrl: >-
+                          https://unsplash.com/photos/orange-and-black-off-road-bicycle-on-hill-1ow9zrlldJU
+                        updatedAt: '2026-05-22T14:00:00Z'
+                        authorName: Patrick Hendry
+                        downloadUrl: >-
+                          https://unsplash.com/photos/1ow9zrlldJU/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxiaWtpbmd8ZW58MHx8fHwxNzc5NDY0Njc0fDA
+                        photoRawUrl: >-
+                          https://images.unsplash.com/photo-1511994298241-608e28f14fde?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxiaWtpbmd8ZW58MHx8fHwxNzc5NDY0Njc0fDA&ixlib=rb-4.1.0
+                        photoFullUrl: >-
+                          https://images.unsplash.com/photo-1511994298241-608e28f14fde?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxiaWtpbmd8ZW58MHx8fHwxNzc5NDY0Njc0fDA&ixlib=rb-4.1.0&q=85
+                        photoSmallUrl: >-
+                          https://images.unsplash.com/photo-1511994298241-608e28f14fde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxiaWtpbmd8ZW58MHx8fHwxNzc5NDY0Njc0fDA&ixlib=rb-4.1.0&q=80&w=400
+                        photoThumbUrl: >-
+                          https://images.unsplash.com/photo-1511994298241-608e28f14fde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxiaWtpbmd8ZW58MHx8fHwxNzc5NDY0Njc0fDA&ixlib=rb-4.1.0&q=80&w=200
+                        authorUsername: worldsbetweenlines
+                        photoRegularUrl: >-
+                          https://images.unsplash.com/photo-1511994298241-608e28f14fde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxiaWtpbmd8ZW58MHx8fHwxNzc5NDY0Njc0fDA&ixlib=rb-4.1.0&q=80&w=1080
+                        authorProfileUrl: https://unsplash.com/@worldsbetweenlines
+                        downloadLocation: >-
+                          https://api.unsplash.com/photos/1ow9zrlldJU/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxiaWtpbmd8ZW58MHx8fHwxNzc5NDY0Njc0fDA
+                        authorProfileImage: >-
+                          https://images.unsplash.com/profile-1770051362138-57c809fa8004image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                    height:
+                      type: number
+                      value: 5792
+                    description:
+                      type: text
+                      value: Photo by Patrick Hendry on Unsplash
+                  _source: unisplash-aa215bbd-c336-466a-9bc6-19963bab7ff1
+          title:
+            type: text
+            locales:
+              en-US: Ride Far. Ride Free.
+          subtitle:
+            type: text
+            locales:
+              en-US: >-
+                Ride farther, push longer, and find your freedom on every
+                stretch of open trail.
+      - _id: 57834336-0db7-4f3a-a47f-dbf087c62393
+        type: contentBlock
+        parameters:
+          content:
+            type: richText
+            value:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Biking: Simple, Fun, and Built for Adventure'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Biking is one of the easiest ways to get outside,
+                          clear your head, and cover more ground than you can on
+                          foot. It can be a quick spin around the neighborhood,
+                          a dirt trail escape after work, or a full-day ride
+                          with snacks in your pack and no rush to get home.
+                          However you ride, biking gives you that sweet spot of
+                          movement, freedom, and just enough wind in your face
+                          to make an ordinary day feel better.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Why people love biking
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          People love biking because it meets you where you are.
+                          You do not need to be a racer or a gear expert to
+                          enjoy it. You can ride for fitness, for fun, for
+                          commuting, or just for the excuse to take the long way
+                          home.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              It feels good fast. Even a short ride can boost
+                              your mood.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              It is accessible. You can start small and build
+                              confidence as you go.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: It turns everyday routes into mini adventures.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              It works for different goals, from training rides
+                              to family weekends.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 5
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              It helps you see more of your surroundings at a
+                              human pace.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: bullet
+                    direction: null
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Beginner tips for getting started
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          If you are new to biking, keep it simple. You do not
+                          need the perfect setup to begin. You just need a bike
+                          that fits reasonably well, a helmet, and a route that
+                          feels manageable.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Start with short, easy rides. Pick a quiet
+                              neighborhood street, bike path, or mellow trail
+                              and focus on getting comfortable.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Check the basics before you roll. Make sure your
+                              tires have air, your brakes work, and your chain
+                              is in decent shape.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Wear what is comfortable. You do not need a full
+                              kit for your first ride. Breathable clothes and
+                              flat-out practical layers work just fine.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Bring water and a small snack. Even a casual ride
+                              feels better when you are not running on empty.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 5
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Ride at your pace. Your mountain, your way also
+                              applies to the bike path. There is no prize for
+                              making your first ride harder than it needs to be.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 6
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Learn one thing at a time. Practice shifting,
+                              braking smoothly, and cornering before you worry
+                              about speed or distance.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: number
+                    direction: null
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Get out and ride
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best way to get into biking is to stop waiting for
+                          the perfect moment. Take the bike you have, choose a
+                          route that sounds fun, and go see where it leads. Some
+                          rides will be smooth. Some will include a wrong turn,
+                          a squeaky brake, or a hill that feels a little rude.
+                          That is part of it.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Start small. Stay curious. Built for the long trail is
+                          not just about gear. It is about showing up, ride
+                          after ride, and finding your own rhythm outside. Get
+                          out there and enjoy the spin.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+          heading:
+            type: text
+            value: Ride Far. Ride Ready.
+  _locales:
+    - en-US
+created: '2026-05-22T15:50:55.365882+00:00'
+modified: '2026-05-22T15:52:19.032642+00:00'
+pattern: false

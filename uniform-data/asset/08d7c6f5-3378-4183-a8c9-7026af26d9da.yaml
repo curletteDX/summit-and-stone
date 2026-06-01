@@ -1,0 +1,40 @@
+asset:
+  type: image
+  _id: 08d7c6f5-3378-4183-a8c9-7026af26d9da
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Trail Pack
+    description:
+      type: text
+      value: >-
+        A green hiking backpack with yellow straps resting on rocks near a body
+        of water, with trees blurred in the background.
+    file:
+      type: file
+      value: c3a50ac7-3754-423b-8454-d43eac1c0865
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/8glVOI_7TYiyD1GCXMkidw-Trail-Pack.jpg
+      type: text
+    size:
+      value: 3267507
+      type: number
+    width:
+      value: 3607
+      type: number
+    height:
+      value: 5410
+      type: number
+    focalPoint:
+      value:
+        x: 0.48
+        'y': 0.56
+      type: focalPoint
+    custom: {}
+created: '2026-06-01T15:39:50.146047+00:00'
+modified: '2026-06-01T15:39:50.146047+00:00'

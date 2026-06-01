@@ -1,0 +1,67 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: productCard
+name: Product Card
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Product name for the card.
+    typeConfig:
+      required: true
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    guidance: Short product summary for the card.
+    typeConfig:
+      required: false
+    localizable: true
+  - id: image
+    name: Image
+    type: asset
+    guidance: Primary product image for the card.
+    typeConfig:
+      required: false
+      allowedTypes:
+        - image
+    localizable: true
+  - id: price
+    name: Price
+    type: number
+    guidance: Displayed product price.
+    typeConfig:
+      min: 0
+      required: false
+  - id: category
+    name: Category
+    type: multi-select
+    guidance: Optional category labels to show on the card.
+    typeConfig:
+      options:
+        - text: Hiking
+          value: hiking
+        - text: Climbing
+          value: climbing
+        - text: Biking
+          value: biking
+      required: false
+  - id: available
+    name: Available
+    type: checkbox
+    guidance: Indicates whether the product is available.
+  - id: link
+    name: Link
+    type: link
+    guidance: Link to the product detail page or external product page.
+    typeConfig:
+      required: false
+description: Displays a featured product with image, summary, price, and a call to action.
+useTeamPermissions: true
+slots: []
+titleParameter: title
+thumbnailParameter: image
+canBeComposition: false
+created: '2026-06-01T13:57:06.692246+00:00'
+updated: '2026-06-01T13:57:06.692246+00:00'

@@ -1,0 +1,10 @@
+id: 57ea5389-1ce9-4b23-830a-e1ca953e4767
+name: Biking
+order: 600
+path: /biking
+type: composition
+pathSegment: biking
+data:
+  queryStrings: []
+compositionId: 81f76713-2b48-4a04-ac39-81bb38d1c4c2
+projectMapId: 2306e874-c252-4238-86a7-fe029f6141ff

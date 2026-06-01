@@ -1,0 +1,42 @@
+asset:
+  type: image
+  _id: 06dede43-c1c7-4f2d-9afb-d0cac5af43d9
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Mountain Hiking Starts Here
+    description:
+      type: text
+      value: >-
+        A split layout with a mountain hiker seen from behind on the left and
+        promotional text on the right. The page headline reads “Mountain Hiking
+        Starts Here” and includes a short introduction and bullet points about
+        gear, advice, and community.
+    file:
+      type: file
+      value: 34e9b66d-05b1-4e8e-a6f4-0d45628b0a55
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/Pxy5UaTvTiuWg2mKH5k4eQ-Screenshot-ImageWithText.png
+      type: text
+    size:
+      value: 1936463
+      type: number
+    width:
+      value: 1890
+      type: number
+    height:
+      value: 1366
+      type: number
+    focalPoint:
+      value:
+        x: 0.33
+        'y': 0.73
+      type: focalPoint
+    custom: {}
+created: '2026-05-22T16:00:18.530592+00:00'
+modified: '2026-05-22T16:00:18.530592+00:00'

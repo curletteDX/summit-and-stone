@@ -59,10 +59,13 @@ parameters:
           value: left
         - text: Right
           value: right
+categoryId: ef80a8bc-73d0-40ed-ad3b-a85ee514da87
+previewImageUrl: >-
+  https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/Pxy5UaTvTiuWg2mKH5k4eQ-Screenshot-ImageWithText.png
 useTeamPermissions: true
 slots: []
 titleParameter: heading
 thumbnailParameter: image
 canBeComposition: false
 created: '2026-05-22T14:56:50.448014+00:00'
-updated: '2026-05-22T15:22:52.109177+00:00'
+updated: '2026-05-22T16:00:49.547539+00:00'

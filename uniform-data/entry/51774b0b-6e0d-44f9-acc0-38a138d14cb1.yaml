@@ -1,0 +1,160 @@
+created: '2026-06-01T13:51:23.656127+00:00'
+modified: '2026-06-01T15:40:41.744857+00:00'
+pattern: false
+entry:
+  _id: 51774b0b-6e0d-44f9-acc0-38a138d14cb1
+  _name: Alpine Trail Pack 28
+  _slug: alpine-trail-pack-28
+  _thumbnail: >-
+    https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/8glVOI_7TYiyD1GCXMkidw-Trail-Pack.jpg
+  type: product
+  fields:
+    price:
+      type: number
+      value: 129
+    title:
+      type: text
+      locales:
+        en-US: Alpine Trail Pack 28
+    buyLink:
+      type: link
+      value:
+        path: /products/alpine-trail-pack-28
+        type: url
+    category:
+      type: multi-select
+      value:
+        - hiking
+    featured:
+      type: checkbox
+      value: 'true'
+    available:
+      type: checkbox
+      value: 'true'
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The Alpine Trail Pack 28 is built for long miles, fast
+                      climbs, and the kind of days when you forget to check the
+                      clock because the trail keeps getting better. Lightweight
+                      and comfortable from the first switchback to the last
+                      descent, it carries close without feeling bulky and stays
+                      easy on your shoulders when your route turns ambitious.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      A breathable back panel helps manage heat on warm climbs,
+                      while hydration compatibility keeps water within easy
+                      reach so you can keep moving without breaking stride.
+                      Trekking pole storage makes quick transitions simple when
+                      the terrain changes, and the streamlined 28L design gives
+                      you room for layers, trail food, and the essentials you
+                      actually want to bring.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Trail tested and built for all-day performance, this is
+                      the pack for hikers who want dependable comfort, smart
+                      organization, and zero unnecessary fuss. Your mountain,
+                      your way.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    primaryImage:
+      type: asset
+      locales:
+        en-US:
+          - _id: 9805f99a-dd45-4383-a3ff-8df5a65567a1
+            type: image
+            fields:
+              id:
+                type: text
+                value: 08d7c6f5-3378-4183-a8c9-7026af26d9da
+              url:
+                value: >-
+                  https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/8glVOI_7TYiyD1GCXMkidw-Trail-Pack.jpg
+                type: text
+              file:
+                type: file
+                value: c3a50ac7-3754-423b-8454-d43eac1c0865
+              size:
+                value: 3267507
+                type: number
+              title:
+                type: text
+                value: Trail Pack
+              width:
+                value: 3607
+                type: number
+              height:
+                value: 5410
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+              focalPoint:
+                value:
+                  x: 0.48
+                  'y': 0.56
+                type: focalPoint
+              description:
+                type: text
+                value: >-
+                  A green hiking backpack with yellow straps resting on rocks
+                  near a body of water, with trees blurred in the background.
+            _source: uniform-assets
+    shopifyHandle:
+      type: text
+      value: alpine-trail-pack-28
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          A lightweight 28-liter day pack built for long hikes, steady miles,
+          and fast summit pushes.
+  _locales:
+    - en-US

@@ -8,6 +8,8 @@ import ImageWithText from "@/components/ImageWithText";
 import TopicCards from "@/components/TopicCards";
 import TopicCard from "@/components/TopicCard";
 import Page from "@/components/Page";
+import FeaturedProducts from "@/components/FeaturedProducts";
+import ProductCard from "@/components/ProductCard";
 
 registerUniformComponent({
   type: "page",
@@ -52,4 +54,14 @@ registerUniformComponent({
 registerUniformComponent({
   type: "topicCard",
   component: TopicCard,
+});
+
+registerUniformComponent({
+  type: "featuredProducts",
+  component: FeaturedProducts,
+});
+
+registerUniformComponent({
+  type: "productCard",
+  component: ProductCard,
 });

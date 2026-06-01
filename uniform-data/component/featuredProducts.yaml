@@ -1,0 +1,35 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: featuredProducts
+name: Featured Products
+icon: screen
+parameters:
+  - id: heading
+    name: Heading
+    type: text
+    guidance: Section heading for the featured products area.
+    typeConfig:
+      required: true
+    localizable: true
+  - id: subheading
+    name: Subheading
+    type: text
+    guidance: Optional supporting text for the featured products area.
+    typeConfig:
+      required: false
+    localizable: true
+description: Displays a merchandised section of featured products using product cards.
+useTeamPermissions: true
+slots:
+  - id: products
+    name: Products
+    maxComponents: 12
+    minComponents: 1
+    allowedComponents:
+      - productCard
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: heading
+canBeComposition: false
+created: '2026-06-01T13:57:49.44465+00:00'
+updated: '2026-06-01T13:57:49.44465+00:00'

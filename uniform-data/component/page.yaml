@@ -24,7 +24,7 @@ slots:
     allowedComponents: []
     allowAllComponents: false
     inheritAllowedComponents: false
-    patternsInAllowedComponents: false
+    patternsInAllowedComponents: true
   - id: content
     name: Content
     allowedComponents:
@@ -35,16 +35,17 @@ slots:
       - blogarticledetail
       - imageWithText
       - topicCards
+      - featuredProducts
     allowAllComponents: false
     inheritAllowedComponents: false
-    patternsInAllowedComponents: false
+    patternsInAllowedComponents: true
   - id: footer
     name: Footer
     allowedComponents: []
     allowAllComponents: false
     inheritAllowedComponents: false
-    patternsInAllowedComponents: false
+    patternsInAllowedComponents: true
 titleParameter: title
 canBeComposition: true
 created: '2026-05-05T10:00:26.57672+00:00'
-updated: '2026-05-22T15:37:51.089283+00:00'
+updated: '2026-06-01T13:59:22.690074+00:00'

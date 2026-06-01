@@ -1,0 +1,10 @@
+id: 1c976ae0-ee04-4be1-ba26-442e88d3569c
+name: Hiking
+order: 600
+path: /hiking
+type: composition
+pathSegment: hiking
+data:
+  queryStrings: []
+compositionId: 583ff370-d921-429c-8008-d631862f6954
+projectMapId: 2306e874-c252-4238-86a7-fe029f6141ff

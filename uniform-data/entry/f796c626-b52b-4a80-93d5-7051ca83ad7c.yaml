@@ -1,0 +1,158 @@
+created: '2026-06-01T13:51:38.997605+00:00'
+modified: '2026-06-01T15:40:26.262811+00:00'
+pattern: false
+entry:
+  _id: f796c626-b52b-4a80-93d5-7051ca83ad7c
+  _name: Ridge Shell Jacket
+  _slug: ridge-shell-jacket
+  _thumbnail: >-
+    https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/ZWWsg1V_ReWwvV8OcgMgsQ-Shell-Jacket.webp
+  type: product
+  fields:
+    price:
+      type: number
+      value: 189
+    title:
+      type: text
+      locales:
+        en-US: Ridge Shell Jacket
+    buyLink:
+      type: link
+      value:
+        path: /products/ridge-shell-jacket
+        type: url
+    category:
+      type: multi-select
+      value:
+        - hiking
+    featured:
+      type: checkbox
+      value: 'true'
+    available:
+      type: checkbox
+      value: 'true'
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The Ridge Shell Jacket is the layer you grab when the
+                      forecast looks questionable and the trail still calls. It
+                      delivers reliable waterproof protection to keep rain,
+                      wind, and surprise squalls from cutting your day short,
+                      while breathable construction helps you stay comfortable
+                      when the climb gets steep.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Light enough to pack without a second thought, it
+                      disappears into your kit until mountain weather decides to
+                      make an entrance. An adjustable hood helps seal out the
+                      elements and dial in the fit, whether you're hiking into
+                      steady drizzle or waiting out a windy ridgeline break.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Built for dependable performance when conditions shift
+                      fast, the Ridge Shell Jacket keeps you moving with
+                      confidence. Trail tested, peak approved.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    primaryImage:
+      type: asset
+      locales:
+        en-US:
+          - _id: 4abb50ab-8237-4eeb-b998-6ad3161b877a
+            type: image
+            fields:
+              id:
+                type: text
+                value: 593e4335-664b-412c-acf0-bd5b4f153b57
+              url:
+                value: >-
+                  https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/ZWWsg1V_ReWwvV8OcgMgsQ-Shell-Jacket.webp
+                type: text
+              file:
+                type: file
+                value: 366badb6-d0ce-4502-bb81-16bdb83c1589
+              size:
+                value: 288712
+                type: number
+              title:
+                type: text
+                value: Shell Jacket
+              width:
+                value: 3371
+                type: number
+              height:
+                value: 4472
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+              focalPoint:
+                value:
+                  x: 0.5
+                  'y': 0.5
+                type: focalPoint
+              description:
+                type: text
+                value: >-
+                  An orange hooded shell jacket with black trim, front zipper,
+                  and multiple zippered pockets, displayed against a light gray
+                  background.
+            _source: uniform-assets
+    shopifyHandle:
+      type: text
+      value: ridge-shell-jacket
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          A waterproof hiking shell made for changing weather, windy ridgelines,
+          and year-round layering.
+  _locales:
+    - en-US

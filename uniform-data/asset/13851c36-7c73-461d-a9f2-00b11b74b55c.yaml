@@ -1,0 +1,41 @@
+asset:
+  type: image
+  _id: 13851c36-7c73-461d-a9f2-00b11b74b55c
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Screenshot Topic Cards
+    description:
+      type: text
+      value: >-
+        A website screenshot titled “Hike with us” showing three large topic
+        cards for biking, climbing, and hiking, each with a scenic outdoor
+        photo, a bold label, short descriptive text, and a right arrow icon.
+    file:
+      type: file
+      value: 52e76748-ae20-4e81-b9c5-3700bfe18b9e
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/sDSo-stJQce-5WAiIL4zKw-Screenshot-Topic-Cards.png
+      type: text
+    size:
+      value: 1474035
+      type: number
+    width:
+      value: 1960
+      type: number
+    height:
+      value: 848
+      type: number
+    focalPoint:
+      value:
+        x: 0.5
+        'y': 0.17
+      type: focalPoint
+    custom: {}
+created: '2026-05-22T15:57:49.309891+00:00'
+modified: '2026-05-22T15:57:49.309891+00:00'

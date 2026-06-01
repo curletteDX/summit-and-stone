@@ -1,0 +1,40 @@
+asset:
+  type: image
+  _id: 593e4335-664b-412c-acf0-bd5b4f153b57
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Shell Jacket
+    description:
+      type: text
+      value: >-
+        An orange hooded shell jacket with black trim, front zipper, and
+        multiple zippered pockets, displayed against a light gray background.
+    file:
+      type: file
+      value: 366badb6-d0ce-4502-bb81-16bdb83c1589
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/ZWWsg1V_ReWwvV8OcgMgsQ-Shell-Jacket.webp
+      type: text
+    size:
+      value: 288712
+      type: number
+    width:
+      value: 3371
+      type: number
+    height:
+      value: 4472
+      type: number
+    focalPoint:
+      value:
+        x: 0.5
+        'y': 0.5
+      type: focalPoint
+    custom: {}
+created: '2026-06-01T15:39:50.146047+00:00'
+modified: '2026-06-01T15:39:50.146047+00:00'
