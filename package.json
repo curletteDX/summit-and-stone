@@ -22,7 +22,7 @@
     "@uniformdev/context-react": "^20.64.0",
     "@uniformdev/richtext": "^20.60.2",
     "lucide-react": "^1.16.0",
-    "next": "16.2.4",
+    "next": "15.5.24",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
