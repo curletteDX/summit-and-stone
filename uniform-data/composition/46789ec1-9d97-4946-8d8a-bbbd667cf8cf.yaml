@@ -77,6 +77,96 @@ composition:
           $internal_displayName:
             type: text
             value: Hero
+      - _id: b3c93af7-d13b-4f42-afa4-f6d9718e2288
+        type: simpleHeroWithCta
+        parameters:
+          heading:
+            type: text
+            locales:
+              en-US: Gear Up for Your Next Adventure
+          description:
+            type: richText
+            locales:
+              en-US:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 'Summit & Stone '
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                        - mode: normal
+                          text: >-
+                            is where solid gear meets honest guidance. We’re
+                            here for hikers, climbers, and trail runners who
+                            want equipment that performs when the weather turns,
+                            the mileage stacks up, and the snacks start
+                            disappearing faster than planned.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 1
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Everything we share is built around real use. We
+                            focus on practical recommendations, clear tradeoffs,
+                            and products that earn their place outdoors—because
+                            the right pack, shell, or pair of poles should make
+                            your day better, not just look good in a product
+                            grid.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Whether you’re gearing up for your first big trail
+                            day or refining a setup you’ve trusted for years,
+                            you’ll find a welcoming approach, useful
+                            information, and a community that believes in
+                            getting outside your mountain, your way.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                  direction: null
+          ctaButtonText:
+            type: text
+            locales:
+              en-US: Read more
       - _id: de2321c9-4085-4361-bf7c-8b60587cc4c3
         type: imageWithText
         parameters:
@@ -331,6 +421,73 @@ composition:
           imagePosition:
             type: select
             value: left
+      - _id: 9149248e-c1cd-4771-95c4-e2ec0748354d
+        type: simpleHeroWithCta
+        parameters:
+          heading:
+            type: text
+            locales:
+              en-US: Simple CTA
+          description:
+            type: richText
+            locales:
+              en-US:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Summit & Stone is your go-to source for trail-tested
+                            gear, honest advice, and the kind of outdoor
+                            know-how that makes every trip feel a little more
+                            dialed. Whether you’re heading out for a local day
+                            hike, planning a weekend in the backcountry, or
+                            comparing layers before the weather turns, we help
+                            you choose equipment that fits your adventure—not
+                            just a marketing checklist.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            We believe great gear should earn its place mile
+                            after mile. That’s why we focus on practical picks,
+                            real-world performance, and a welcoming approach for
+                            every experience level. From first-timers to
+                            seasoned hikers, you’ll find quality products,
+                            helpful information, and a community that’s ready to
+                            help you get outside with confidence.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                  direction: null
+          ctaButtonText:
+            type: text
+            locales:
+              en-US: Read more
       - _id: 677241a8-c5e0-4410-b5e2-480fa786406a
         type: topicCards
         _pattern: 357b801b-431a-4226-b965-df5b00f5a0f3
@@ -346,6 +503,50 @@ composition:
                   value:
                     path: /products/alpine-trail-pack-28
                     type: url
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: a9dc25c1-2a2f-4ef5-a57b-2f2f8f5334a2
+                        type: image
+                        fields:
+                          id:
+                            type: text
+                            value: 08d7c6f5-3378-4183-a8c9-7026af26d9da
+                          url:
+                            value: >-
+                              https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/8glVOI_7TYiyD1GCXMkidw-Trail-Pack.jpg
+                            type: text
+                          file:
+                            type: file
+                            value: c3a50ac7-3754-423b-8454-d43eac1c0865
+                          size:
+                            value: 3267507
+                            type: number
+                          title:
+                            type: text
+                            value: Trail Pack
+                          width:
+                            value: 3607
+                            type: number
+                          height:
+                            value: 5410
+                            type: number
+                          mediaType:
+                            value: image/jpeg
+                            type: text
+                          focalPoint:
+                            value:
+                              x: 0.48
+                              'y': 0.56
+                            type: focalPoint
+                          description:
+                            type: text
+                            value: >-
+                              A green hiking backpack with yellow straps resting
+                              on rocks near a body of water, with trees blurred
+                              in the background.
+                        _source: uniform-assets
                 price:
                   type: number
                   value: 129
@@ -374,6 +575,50 @@ composition:
                   value:
                     path: /products/ridge-shell-jacket
                     type: url
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 608d7e24-70d1-4658-b938-eb47e6629f0a
+                        type: image
+                        fields:
+                          id:
+                            type: text
+                            value: 593e4335-664b-412c-acf0-bd5b4f153b57
+                          url:
+                            value: >-
+                              https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/ZWWsg1V_ReWwvV8OcgMgsQ-Shell-Jacket.webp
+                            type: text
+                          file:
+                            type: file
+                            value: 366badb6-d0ce-4502-bb81-16bdb83c1589
+                          size:
+                            value: 288712
+                            type: number
+                          title:
+                            type: text
+                            value: Shell Jacket
+                          width:
+                            value: 3371
+                            type: number
+                          height:
+                            value: 4472
+                            type: number
+                          mediaType:
+                            value: image/webp
+                            type: text
+                          focalPoint:
+                            value:
+                              x: 0.5
+                              'y': 0.5
+                            type: focalPoint
+                          description:
+                            type: text
+                            value: >-
+                              An orange hooded shell jacket with black trim,
+                              front zipper, and multiple zippered pockets,
+                              displayed against a light gray background.
+                        _source: uniform-assets
                 price:
                   type: number
                   value: 189
@@ -402,6 +647,39 @@ composition:
                   value:
                     path: /products/summit-carbon-poles
                     type: url
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: a3c2f0b3-0ef7-4447-add6-2ee90644af4a
+                        type: image
+                        fields:
+                          id:
+                            type: text
+                            value: d870eca8-3bfd-4595-8a9a-e4aac193d8c1
+                          url:
+                            value: >-
+                              https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/JRXs6SeCTbyrqPXGUtaaSA-summit-poles.avif
+                            type: text
+                          file:
+                            type: file
+                            value: 6a50fdc1-1d46-41d6-b072-5e299659f20a
+                          size:
+                            value: 48676
+                            type: number
+                          title:
+                            type: text
+                            value: summit-poles.avif
+                          width:
+                            value: 823
+                            type: number
+                          height:
+                            value: 1800
+                            type: number
+                          mediaType:
+                            value: image/avif
+                            type: text
+                        _source: uniform-assets
                 price:
                   type: number
                   value: 99
@@ -422,6 +700,9 @@ composition:
                     en-US: >-
                       Ultralight trekking poles that add stability on steep
                       climbs, rough descents, and long trail days.
+            - _id: 567c266b-5b44-4e2e-8a76-7808ee5b5fe7
+              type: productCard
+              _pattern: 3bf9ec7b-8c22-4a58-8c76-aa8bc82b37d9
         parameters:
           heading:
             type: text
@@ -652,6 +933,11 @@ composition:
             locales:
               en-US: Latest Articles
   _dataResources:
+    Product Content:
+      type: product
+      variables:
+        locale: ${locale}
+        entryId: 51774b0b-6e0d-44f9-acc0-38a138d14cb1
     Article List Content:
       type: articleList
       variables:
@@ -661,8 +947,25 @@ composition:
         filters: '{"type[eq]":"article"}'
         orderBy: created_at_ASC
         contentTypes: article
+  _overrides:
+    567c266b-5b44-4e2e-8a76-7808ee5b5fe7:
+      dataResources:
+        Product Content:
+          type: product
+          variables:
+            locale: ${locale}
+            entryId: 283051e5-3b14-4f47-9972-cf74f797192b
+    677241a8-c5e0-4410-b5e2-480fa786406a|cfaf0687-f714-45ba-aa76-5e47b78a6589:
+      parameters:
+        link:
+          type: link
+          value:
+            path: /biking
+            type: projectMapNode
+            nodeId: 57ea5389-1ce9-4b23-830a-e1ca953e4767
+            projectMapId: 2306e874-c252-4238-86a7-fe029f6141ff
   _locales:
     - en-US
 created: '2026-05-05T10:11:27.278704+00:00'
-modified: '2026-06-01T15:39:24.821499+00:00'
+modified: '2026-08-26T14:23:34.226809+00:00'
 pattern: false

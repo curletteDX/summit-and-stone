@@ -26,10 +26,14 @@ parameters:
     name: Link
     type: link
     guidance: URL to the topic page
+    typeConfig:
+      linkTypes:
+        tel: false
+        email: false
 useTeamPermissions: true
 slots: []
 titleParameter: title
 thumbnailParameter: image
 canBeComposition: false
 created: '2026-05-22T15:37:31.152253+00:00'
-updated: '2026-05-22T15:37:31.152253+00:00'
+updated: '2026-08-26T14:16:40.546908+00:00'

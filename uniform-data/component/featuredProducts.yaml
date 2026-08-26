@@ -27,9 +27,11 @@ slots:
     minComponents: 1
     allowedComponents:
       - productCard
+      - $p:3bf9ec7b-8c22-4a58-8c76-aa8bc82b37d9
+    allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: true
 titleParameter: heading
 canBeComposition: false
 created: '2026-06-01T13:57:49.44465+00:00'
-updated: '2026-06-01T13:57:49.44465+00:00'
+updated: '2026-06-01T16:12:12.482638+00:00'

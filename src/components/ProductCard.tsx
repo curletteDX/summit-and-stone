@@ -30,7 +30,8 @@ export default function ProductCard({ component }: ProductCardProps) {
   const imageUrl = GetImageUrl(imageAssets);
   const price = component.parameters?.price?.value;
   const categories = component.parameters?.category?.value ?? [];
-  const available = component.parameters?.available?.value ?? true;
+  const availableValue = component.parameters?.available?.value;
+  const available = availableValue === true || availableValue === "true";
   const link = component.parameters?.link?.value;
   const href = link?.path || link?.url || "#";
 

@@ -1,5 +1,8 @@
 id: article
 displayName: Article
+created: '2026-05-07T07:41:30.324057+00:00'
+modified: '2026-05-07T07:41:30.324057+00:00'
+createdBy: google-oauth2|118138255479849584814
 path: /single
 custom:
   allowedContentTypes:
