@@ -1,8 +1,5 @@
 id: productList
 displayName: Product List
-created: '2026-06-01T13:50:17.161443+00:00'
-modified: '2026-06-01T13:50:17.161443+00:00'
-createdBy: google-oauth2|118138255479849584814
 path: /query
 custom:
   allowedContentTypes:

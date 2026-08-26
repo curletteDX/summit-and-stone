@@ -36,10 +36,9 @@ slots:
       - imageWithText
       - topicCards
       - featuredProducts
-      - simpleHeroWithCta
     allowAllComponents: false
     inheritAllowedComponents: false
-    patternsInAllowedComponents: false
+    patternsInAllowedComponents: true
   - id: footer
     name: Footer
     allowedComponents: []
@@ -49,4 +48,4 @@ slots:
 titleParameter: title
 canBeComposition: true
 created: '2026-05-05T10:00:26.57672+00:00'
-updated: '2026-08-26T14:12:27.319443+00:00'
+updated: '2026-06-01T13:59:22.690074+00:00'

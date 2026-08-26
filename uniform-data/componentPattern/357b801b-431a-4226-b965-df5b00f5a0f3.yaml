@@ -82,13 +82,6 @@ composition:
               en-US: >-
                 Mountain biking routes, scenic rides, and trail tips for every
                 skill level.
-        _overridability:
-          parameters:
-            $viz: 'yes'
-            link: 'yes'
-            image: 'yes'
-            title: 'yes'
-            description: 'yes'
       - _id: 2069e4ca-64ce-4627-a9d3-cae5cb3f5e98
         type: topicCard
         parameters:
@@ -225,5 +218,5 @@ composition:
   _locales:
     - en-US
 created: '2026-05-22T15:56:56.526977+00:00'
-modified: '2026-08-26T14:17:12.604922+00:00'
+modified: '2026-05-22T15:56:56.526977+00:00'
 pattern: true

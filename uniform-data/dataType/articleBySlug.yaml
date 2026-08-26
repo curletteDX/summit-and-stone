@@ -1,9 +1,5 @@
 id: articleBySlug
 displayName: ArticleBySlug
-created: '2026-05-07T14:26:20.771811+00:00'
-modified: '2026-05-07T14:27:22.010496+00:00'
-createdBy: google-oauth2|118138255479849584814
-modifiedBy: google-oauth2|118138255479849584814
 ttl: 30
 body: ''
 path: /single-by-slug

@@ -1,8 +1,5 @@
 id: product
 displayName: Product
-created: '2026-06-01T13:50:17.15488+00:00'
-modified: '2026-06-01T13:50:17.15488+00:00'
-createdBy: google-oauth2|118138255479849584814
 path: /single
 custom:
   allowedContentTypes:

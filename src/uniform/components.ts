@@ -10,12 +10,6 @@ import TopicCard from "@/components/TopicCard";
 import Page from "@/components/Page";
 import FeaturedProducts from "@/components/FeaturedProducts";
 import ProductCard from "@/components/ProductCard";
-import SimpleHeroWithCTA from "@/components/SimpleHeroWithCTA";
-
-registerUniformComponent({
-  type: "simpleHeroWithCta",
-  component: SimpleHeroWithCTA,
-});
 
 registerUniformComponent({
   type: "page",
