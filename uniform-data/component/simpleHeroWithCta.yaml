@@ -1,0 +1,62 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: simpleHeroWithCta
+name: Simple Hero with CTA
+icon: screen
+parameters:
+  - id: heading
+    name: Heading
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: description
+    name: Description
+    type: richText
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: ctaButtonText
+    name: CTA Button Text
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: ctaButtonLink
+    name: CTA Button Link
+    type: link
+    typeConfig: null
+    localizable: true
+useTeamPermissions: true
+slots: []
+titleParameter: heading
+canBeComposition: false
+created: '2026-07-07T12:20:04.856576+00:00'
+updated: '2026-07-07T12:20:04.856576+00:00'

@@ -1,0 +1,45 @@
+composition:
+  _name: Product Card (Entry)
+  _id: 3bf9ec7b-8c22-4a58-8c76-aa8bc82b37d9
+  type: productCard
+  parameters:
+    image:
+      type: asset
+      locales:
+        en-US: ${#jptr:/Product Content/entry/fields/primaryImage/value}
+    price:
+      type: number
+      value: ${#jptr:/Product Content/entry/fields/price/value}
+    title:
+      type: text
+      locales:
+        en-US: ${#jptr:/Product Content/entry/fields/title/value}
+    category:
+      type: multi-select
+      value: ${#jptr:/Product Content/entry/fields/category/value}
+    description:
+      type: text
+      locales:
+        en-US: ${#jptr:/Product Content/entry/fields/shortDescription/value}
+  _dataResources:
+    Product Content:
+      type: product
+      variables:
+        locale: ${locale}
+        entryId: 51774b0b-6e0d-44f9-acc0-38a138d14cb1
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      link: 'no'
+      image: 'no'
+      title: 'no'
+      category: 'no'
+      available: 'no'
+      description: 'no'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2026-06-01T16:00:52.292637+00:00'
+modified: '2026-06-01T16:10:55.955059+00:00'
+pattern: true

@@ -60,6 +60,9 @@ composition:
                         rock formation with a vast mountainous landscape and
                         dense forest stretching into the distance under a soft,
                         diffused sky.
+                    file:
+                      type: file
+                      value: b24188a2-cf17-4b17-879f-e49b49cb4190
                   _source: uniform-assets
                   _overrides:
                     fields: {}

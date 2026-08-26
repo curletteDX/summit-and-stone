@@ -58,6 +58,9 @@ composition:
                         Two hikers with backpacks walking on a trail through a
                         green mountainous landscape, heading towards a range of
                         snow-capped peaks under a partly cloudy sky.
+                    file:
+                      type: file
+                      value: 4522588d-3200-4385-8df3-0b8876895d24
                   _source: uniform-assets
                   _overrides:
                     fields: {}

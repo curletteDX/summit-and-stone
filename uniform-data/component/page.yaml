@@ -5,17 +5,249 @@ name: Page
 icon: card
 parameters:
   - id: title
-    name: Title
+    name: Page title
     type: text
-    helpText: Page Meta Title
+    helpText: >-
+      Main page title for search results and browser tab (50-60 characters
+      recommended)
     typeConfig: null
     localizable: true
-  - id: description
-    name: Description
+  - id: seo
+    name: SEO
+    type: group
+    guidance: Search engine optimization settings
+    typeConfig:
+      childrenParams:
+        - seoMetaDescription
+        - seoSchemaOrgType
+        - seoRobotsMetaTag
+  - id: seoSchemaOrgType
+    name: Schema.org type
+    type: select
+    guidance: Structured data type for search engines
+    helpText: Structured data type for search engines (enables rich results)
+    typeConfig:
+      options:
+        - text: Web page (default)
+          value: WebPage
+        - text: Article
+          value: Article
+        - text: FAQ Page
+          value: FAQPage
+        - text: Product
+          value: Product
+        - text: Organization
+          value: Organization
+  - id: seoRobotsMetaTag
+    name: Robots meta tag
+    type: select
+    guidance: Control search engine indexing
+    helpText: Control search engine indexing
+    typeConfig:
+      options:
+        - text: Index, follow (default)
+          value: index, follow
+        - text: No index, follow
+          value: noindex, follow
+        - text: Index, no follow
+          value: index, nofollow
+        - text: No index, no follow
+          value: noindex, nofollow
+  - id: seoMetaDescription
+    name: Meta description
     type: text
-    helpText: Page Meta Description
+    helpText: Brief summary shown in search results (150-160 characters)
     typeConfig: null
     localizable: true
+  - id: geo
+    name: GEO (Generative Engine Optimization)
+    type: group
+    guidance: Optimization for AI and generative search engines
+    typeConfig:
+      childrenParams:
+        - geoAiSummary
+        - geoKeyFacts
+        - geoPrimaryEntity
+        - geoPrimaryEntityType
+        - geoExpertiseTrustSignals
+        - geoRelatedTopics
+  - id: geoAiSummary
+    name: AI summary (TL;DR)
+    type: text
+    guidance: Neutral factual summary for LLMs to cite (100-150 words)
+    helpText: >-
+      Neutral factual summary written for LLMs to cite (100-150 words, ~700-1000
+      characters)
+    localizable: true
+  - id: geoKeyFacts
+    name: Key facts
+    type: text
+    guidance: One verifiable fact per line
+    helpText: One verifiable fact per line (used by AI engines to cite this page)
+    localizable: true
+  - id: geoPrimaryEntity
+    name: Primary entity
+    type: text
+    guidance: Canonical name of the pages main subject
+    helpText: Canonical name of the page's main subject
+    localizable: true
+  - id: geoPrimaryEntityType
+    name: Primary entity type
+    type: select
+    guidance: Schema.org type for the primary entity
+    helpText: Schema.org type for the primary entity
+    typeConfig:
+      options:
+        - text: Organization
+          value: Organization
+        - text: Person
+          value: Person
+        - text: Place
+          value: Place
+        - text: Product
+          value: Product
+        - text: Event
+          value: Event
+        - text: Service
+          value: Service
+  - id: geoExpertiseTrustSignals
+    name: Expertise and trust signals (E-E-A-T)
+    type: text
+    guidance: One credibility signal per line
+    helpText: >-
+      One credibility signal per line (author credentials, sources, experience,
+      dates)
+    localizable: true
+  - id: geoRelatedTopics
+    name: Related topics
+    type: text
+    guidance: Comma-separated related topics
+    helpText: Comma-separated related topics for context
+    localizable: true
+  - id: aeo
+    name: AEO (Answer Engine Optimization)
+    type: group
+    guidance: Optimization for voice search and featured snippets
+    typeConfig:
+      childrenParams:
+        - aeoPrimaryQuestion
+        - aeoDirectAnswer
+        - aeoTargetQueries
+        - aeoSpeakableSelectors
+        - aeoEmitFaqStructuredData
+  - id: aeoPrimaryQuestion
+    name: Primary question
+    type: text
+    guidance: The one question this page directly answers
+    helpText: >-
+      The one question this page directly answers (used for QAPage schema and
+      voice search)
+    localizable: true
+  - id: aeoDirectAnswer
+    name: Direct answer
+    type: text
+    guidance: Concise 40-60 word answer
+    helpText: >-
+      Concise 40-60 word answer (used as featured-snippet candidate and
+      voice-search answer)
+    localizable: true
+  - id: aeoTargetQueries
+    name: Target queries
+    type: text
+    guidance: One query per line
+    helpText: One query per line (planning aid for AEO content strategy)
+    localizable: true
+  - id: aeoSpeakableSelectors
+    name: Speakable selectors
+    type: text
+    guidance: CSS selectors for voice-readable content
+    helpText: >-
+      CSS selectors for voice-readable content (e.g. h1, .lead). Defaults to h1
+      if empty.
+  - id: aeoEmitFaqStructuredData
+    name: Emit FAQ structured data
+    type: checkbox
+    guidance: Auto-generate FAQ schema
+    helpText: Auto-generate FAQ schema from FaqSection components on this page
+  - id: advanced
+    name: Advanced settings
+    type: group
+    guidance: Advanced page configuration options
+    typeConfig:
+      childrenParams:
+        - advCanonicalUrl
+        - advAppendBrandName
+        - advTheme
+  - id: advCanonicalUrl
+    name: Canonical URL
+    type: text
+    guidance: Override canonical URL
+    helpText: Override canonical URL (advanced, leave empty for automatic)
+  - id: advAppendBrandName
+    name: Append brand name to page title
+    type: checkbox
+    guidance: Add brand name suffix to page title
+    helpText: Automatically add brand name to page title (uncheck for long titles)
+  - id: advTheme
+    name: Theme
+    type: select
+    guidance: Visual theme for this page
+    helpText: Visual theme for this page
+    typeConfig:
+      options:
+        - text: Choose an option
+          value: ''
+        - text: Default
+          value: default
+        - text: Light
+          value: light
+        - text: Dark
+          value: dark
+  - id: openGraph
+    name: Open Graph
+    type: group
+    guidance: Social media sharing settings
+    typeConfig:
+      childrenParams:
+        - ogTitle
+        - ogDescription
+        - ogImage
+        - ogType
+  - id: ogTitle
+    name: Open Graph title
+    type: text
+    guidance: Custom title for social media shares
+    helpText: Custom title for social media shares (optional, defaults to page title)
+    localizable: true
+  - id: ogDescription
+    name: Open Graph description
+    type: text
+    guidance: Custom description for social media shares
+    helpText: >-
+      Custom description for social media shares (optional, defaults to meta
+      description)
+    localizable: true
+  - id: ogImage
+    name: Open Graph image
+    type: asset
+    guidance: Social media preview image (1200x630px recommended)
+    helpText: Social media preview image (1200x630px recommended)
+    typeConfig:
+      allowedTypes:
+        - image
+  - id: ogType
+    name: Open Graph type
+    type: select
+    guidance: Content type for social media
+    helpText: >-
+      Content type for social media (Website for most pages, Article for blog
+      posts)
+    typeConfig:
+      options:
+        - text: Website
+          value: website
+        - text: Article
+          value: article
 categoryId: e0442aff-0d79-4b07-9990-c63a43c85dd9
 useTeamPermissions: true
 slots:
@@ -36,9 +268,10 @@ slots:
       - imageWithText
       - topicCards
       - featuredProducts
+      - simpleHeroWithCta
     allowAllComponents: false
     inheritAllowedComponents: false
-    patternsInAllowedComponents: true
+    patternsInAllowedComponents: false
   - id: footer
     name: Footer
     allowedComponents: []
@@ -48,4 +281,4 @@ slots:
 titleParameter: title
 canBeComposition: true
 created: '2026-05-05T10:00:26.57672+00:00'
-updated: '2026-06-01T13:59:22.690074+00:00'
+updated: '2026-08-26T15:54:52.16096+00:00'

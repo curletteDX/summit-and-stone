@@ -346,6 +346,50 @@ composition:
                   value:
                     path: /products/alpine-trail-pack-28
                     type: url
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: a9dc25c1-2a2f-4ef5-a57b-2f2f8f5334a2
+                        type: image
+                        fields:
+                          id:
+                            type: text
+                            value: 08d7c6f5-3378-4183-a8c9-7026af26d9da
+                          url:
+                            value: >-
+                              https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/8glVOI_7TYiyD1GCXMkidw-Trail-Pack.jpg
+                            type: text
+                          file:
+                            type: file
+                            value: c3a50ac7-3754-423b-8454-d43eac1c0865
+                          size:
+                            value: 3267507
+                            type: number
+                          title:
+                            type: text
+                            value: Trail Pack
+                          width:
+                            value: 3607
+                            type: number
+                          height:
+                            value: 5410
+                            type: number
+                          mediaType:
+                            value: image/jpeg
+                            type: text
+                          focalPoint:
+                            value:
+                              x: 0.48
+                              'y': 0.56
+                            type: focalPoint
+                          description:
+                            type: text
+                            value: >-
+                              A green hiking backpack with yellow straps resting
+                              on rocks near a body of water, with trees blurred
+                              in the background.
+                        _source: uniform-assets
                 price:
                   type: number
                   value: 129
@@ -374,6 +418,50 @@ composition:
                   value:
                     path: /products/ridge-shell-jacket
                     type: url
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 608d7e24-70d1-4658-b938-eb47e6629f0a
+                        type: image
+                        fields:
+                          id:
+                            type: text
+                            value: 593e4335-664b-412c-acf0-bd5b4f153b57
+                          url:
+                            value: >-
+                              https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/ZWWsg1V_ReWwvV8OcgMgsQ-Shell-Jacket.webp
+                            type: text
+                          file:
+                            type: file
+                            value: 366badb6-d0ce-4502-bb81-16bdb83c1589
+                          size:
+                            value: 288712
+                            type: number
+                          title:
+                            type: text
+                            value: Shell Jacket
+                          width:
+                            value: 3371
+                            type: number
+                          height:
+                            value: 4472
+                            type: number
+                          mediaType:
+                            value: image/webp
+                            type: text
+                          focalPoint:
+                            value:
+                              x: 0.5
+                              'y': 0.5
+                            type: focalPoint
+                          description:
+                            type: text
+                            value: >-
+                              An orange hooded shell jacket with black trim,
+                              front zipper, and multiple zippered pockets,
+                              displayed against a light gray background.
+                        _source: uniform-assets
                 price:
                   type: number
                   value: 189
@@ -402,6 +490,39 @@ composition:
                   value:
                     path: /products/summit-carbon-poles
                     type: url
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: a3c2f0b3-0ef7-4447-add6-2ee90644af4a
+                        type: image
+                        fields:
+                          id:
+                            type: text
+                            value: d870eca8-3bfd-4595-8a9a-e4aac193d8c1
+                          url:
+                            value: >-
+                              https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/JRXs6SeCTbyrqPXGUtaaSA-summit-poles.avif
+                            type: text
+                          file:
+                            type: file
+                            value: 6a50fdc1-1d46-41d6-b072-5e299659f20a
+                          size:
+                            value: 48676
+                            type: number
+                          title:
+                            type: text
+                            value: summit-poles.avif
+                          width:
+                            value: 823
+                            type: number
+                          height:
+                            value: 1800
+                            type: number
+                          mediaType:
+                            value: image/avif
+                            type: text
+                        _source: uniform-assets
                 price:
                   type: number
                   value: 99
@@ -422,6 +543,9 @@ composition:
                     en-US: >-
                       Ultralight trekking poles that add stability on steep
                       climbs, rough descents, and long trail days.
+            - _id: 567c266b-5b44-4e2e-8a76-7808ee5b5fe7
+              type: productCard
+              _pattern: 3bf9ec7b-8c22-4a58-8c76-aa8bc82b37d9
         parameters:
           heading:
             type: text
@@ -652,6 +776,11 @@ composition:
             locales:
               en-US: Latest Articles
   _dataResources:
+    Product Content:
+      type: product
+      variables:
+        locale: ${locale}
+        entryId: 51774b0b-6e0d-44f9-acc0-38a138d14cb1
     Article List Content:
       type: articleList
       variables:
@@ -661,8 +790,25 @@ composition:
         filters: '{"type[eq]":"article"}'
         orderBy: created_at_ASC
         contentTypes: article
+  _overrides:
+    567c266b-5b44-4e2e-8a76-7808ee5b5fe7:
+      dataResources:
+        Product Content:
+          type: product
+          variables:
+            locale: ${locale}
+            entryId: 283051e5-3b14-4f47-9972-cf74f797192b
+    677241a8-c5e0-4410-b5e2-480fa786406a|cfaf0687-f714-45ba-aa76-5e47b78a6589:
+      parameters:
+        link:
+          type: link
+          value:
+            path: /biking
+            type: projectMapNode
+            nodeId: 57ea5389-1ce9-4b23-830a-e1ca953e4767
+            projectMapId: 2306e874-c252-4238-86a7-fe029f6141ff
   _locales:
     - en-US
 created: '2026-05-05T10:11:27.278704+00:00'
-modified: '2026-06-01T15:39:24.821499+00:00'
+modified: '2026-08-26T15:45:38.466463+00:00'
 pattern: false
