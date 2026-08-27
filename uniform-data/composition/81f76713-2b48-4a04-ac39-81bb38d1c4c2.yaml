@@ -7,12 +7,6 @@ composition:
       type: text
       locales:
         en-US: Biking Adventures | Trails, Gear & Riding Tips | Summit & Stone
-    description:
-      type: text
-      locales:
-        en-US: >-
-          Explore biking routes, practical tips, and fresh adventure inspiration
-          to help you ride farther, plan smarter, and enjoy every mile outdoors.
   slots:
     content:
       - _id: 37961f52-fa97-43dd-8607-2e9a7ac2cac4
@@ -456,6 +450,6 @@ composition:
             value: Ride Far. Ride Ready.
   _locales:
     - en-US
-created: '2026-05-22T15:50:55.365882+00:00'
-modified: '2026-05-22T15:52:19.032642+00:00'
+created: '2026-08-27T17:21:01.847793+00:00'
+modified: '2026-08-27T17:21:01.847793+00:00'
 pattern: false

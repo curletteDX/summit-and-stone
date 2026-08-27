@@ -17,7 +17,7 @@ export default function BlogArticleDetail({
 
   return (
     <article className="max-w-3xl mx-auto px-6 py-12">
-      <h1 className="text-4xl font-bold mb-4 font-sans">{title}</h1>
+      <h1 className="text-4xl font-bold mb-4 font-sans text-black">{title}</h1>
       <p className="text-xl text-zinc-600 mb-8">{summary}</p>
       {image && <Image src={imageUrl} alt={title} width={800} height={400} />}
       <p className="text-zinc-500 mb-2">{formatDate(date)}</p>

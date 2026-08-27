@@ -180,7 +180,7 @@ composition:
                       value: faa34dab-e3a1-4910-80eb-3f20e76c9593
                     url:
                       value: >-
-                        https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/nJrDUhJMTMiol9MRfwhjJA-toomas-tartes-Yizrl9N_eDA-unsplash.jpg
+                        https://img.uniform.global/p/thvstZ7OQtyuIwoj4DLipw/WvG4S4yfQ36D75kdW_2v7w-toomas-tartes-Yizrl9N_eDA-unsplash.jpg
                       type: text
                     file:
                       type: file
@@ -222,8 +222,12 @@ composition:
               en-US: >-
                 Explore scenic trails, mountain views, and practical hiking tips
                 for every experience level.
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      heading: 'yes'
   _locales:
     - en-US
-created: '2026-05-22T15:56:56.526977+00:00'
-modified: '2026-08-26T14:17:12.604922+00:00'
+created: '2026-08-27T17:21:04.571867+00:00'
+modified: '2026-08-27T17:35:16.262463+00:00'
 pattern: true

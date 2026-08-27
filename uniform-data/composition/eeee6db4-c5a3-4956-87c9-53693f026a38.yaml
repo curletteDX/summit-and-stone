@@ -7,13 +7,6 @@ composition:
       type: text
       locales:
         en-US: Climbing Gear, Tips & Guides | Summit & Stone
-    description:
-      type: text
-      locales:
-        en-US: >-
-          Explore climbing routes, practical techniques, and fresh inspiration
-          for every level—from first gym sessions to big wall goals. Climb
-          Without Compromise.
   slots:
     content:
       - _id: 4f065c76-e9ec-4abf-85f8-87d8ae9b6895
@@ -31,8 +24,11 @@ composition:
                       value: 18a43e2d-d448-4e35-99c3-bc246f739e66
                     url:
                       value: >-
-                        https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/wVAz2507SESOKW8csqUrpw-nathan-dumlao-pLoMDKtl-JY-unsplash.jpg
+                        https://img.uniform.global/p/thvstZ7OQtyuIwoj4DLipw/OeC1XrDpQJKbzAcYHxdzdg-nathan-dumlao-pLoMDKtl-JY-unsplash.jpg
                       type: text
+                    file:
+                      type: file
+                      value: b24188a2-cf17-4b17-879f-e49b49cb4190
                     size:
                       value: 924155
                       type: number
@@ -60,16 +56,13 @@ composition:
                         rock formation with a vast mountainous landscape and
                         dense forest stretching into the distance under a soft,
                         diffused sky.
-                    file:
-                      type: file
-                      value: b24188a2-cf17-4b17-879f-e49b49cb4190
                   _source: uniform-assets
                   _overrides:
                     fields: {}
           title:
             type: text
             locales:
-              en-US: Climb Without Compromise
+              en-US: Climb With Confidence
           subtitle:
             type: text
             locales:
@@ -378,6 +371,6 @@ composition:
             value: Climbing Gear That Earns Its Place
   _locales:
     - en-US
-created: '2026-05-22T15:50:59.548955+00:00'
-modified: '2026-05-22T15:50:59.548955+00:00'
+created: '2026-08-27T17:21:02.307284+00:00'
+modified: '2026-08-27T17:34:28.644829+00:00'
 pattern: false

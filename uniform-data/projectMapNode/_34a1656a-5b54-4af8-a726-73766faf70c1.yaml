@@ -1,8 +1,8 @@
-id: adb48adf-e563-4694-82eb-fa9eb068c8fa
-name: Blog
+id: 34a1656a-5b54-4af8-a726-73766faf70c1
+name: Root
 order: 500
-path: /home/blog
+path: /
 type: placeholder
-pathSegment: blog
+pathSegment: ''
 data: {}
 projectMapId: c102c7b6-ea43-4ad8-9b86-65edad70bba8

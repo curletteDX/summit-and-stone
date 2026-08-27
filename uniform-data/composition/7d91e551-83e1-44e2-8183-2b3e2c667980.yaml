@@ -8,10 +8,6 @@ composition:
       type: text
       locales:
         en-US: ${#jptr:/ArticleBySlug Content/entry/_name}
-    description:
-      type: text
-      locales:
-        en-US: ${#jptr:/ArticleBySlug Content/entry/fields/summary/value}
   slots:
     content:
       - _id: 03ddefdc-c1eb-485c-85bd-0431ccd38484
@@ -44,6 +40,6 @@ composition:
         locale: ${locale}
   _locales:
     - en-US
-created: '2026-05-07T10:23:34.686836+00:00'
-modified: '2026-08-26T14:15:08.615269+00:00'
+created: '2026-08-27T17:21:01.31426+00:00'
+modified: '2026-08-27T17:31:42.916821+00:00'
 pattern: false

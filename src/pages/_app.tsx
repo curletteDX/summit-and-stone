@@ -37,7 +37,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <UniformContext context={context}>
       <div
-        className={`${geistSans.className} min-h-screen bg-zinc-50 font-sans dark:bg-black`}
+        className={`${geistSans.className} min-h-screen bg-white font-sans`}
       >
         <NavBar />
         <Component {...pageProps} />

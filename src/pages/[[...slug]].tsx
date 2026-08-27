@@ -38,8 +38,8 @@ export async function getServerSideProps(context: any) {
 
 export default function Home({ composition }: { composition: any }) {
   return (
-    <UniformComposition data={composition}>
-      <div className={`min-h-screen bg-zinc-50 dark:bg-black`}>
+    <UniformComposition data={composition} behaviorTracking="onLoad">
+      <div className={`min-h-screen bg-white`}>
         <UniformSlot name="content" />
       </div>
     </UniformComposition>

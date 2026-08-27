@@ -1,12 +1,59 @@
-created: '2026-05-22T08:04:56.05672+00:00'
-modified: '2026-05-22T08:04:56.05672+00:00'
+created: '2026-08-27T17:21:28.454286+00:00'
+modified: '2026-08-27T17:31:18.694515+00:00'
 pattern: false
 entry:
   _id: 09d43299-c295-4e2b-833f-d614b40872c5
   _name: 'Family-Friendly Hikes in Washington: Trails Everyone Will'
   _slug: family-friendly-hikes-in-washington
+  _thumbnail: >-
+    https://img.uniform.global/p/thvstZ7OQtyuIwoj4DLipw/VunYHp1xTuGhg2igbOdlIg-christian-harb-0PwWDi3U6w8-unsplash.jpg
   type: article
   fields:
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 5986f172-6719-4c4f-b02e-d0f229093db3
+            type: image
+            fields:
+              id:
+                type: text
+                value: 512a8301-636a-42f0-b5ce-0399c3b5f516
+              url:
+                value: >-
+                  https://img.uniform.global/p/thvstZ7OQtyuIwoj4DLipw/VunYHp1xTuGhg2igbOdlIg-christian-harb-0PwWDi3U6w8-unsplash.jpg
+                type: text
+              file:
+                type: file
+                value: dc7593fc-9feb-4ef6-8acd-fb07a9b3f699
+              size:
+                value: 2659331
+                type: number
+              title:
+                type: text
+                value: Family hiking in the forest
+              width:
+                value: 3119
+                type: number
+              height:
+                value: 4160
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+              focalPoint:
+                value:
+                  x: 0.52
+                  'y': 0.65
+                type: focalPoint
+              description:
+                type: text
+                value: >-
+                  A family of three walking on a sunlit forest trail. The child
+                  is running ahead, while the adult on the right carries a baby
+                  in an orange carrier backpack, and the adult on the left walks
+                  with a backpack. The scene is surrounded by lush green trees.
+            _source: uniform-assets
     title:
       type: text
       value: 'Family-Friendly Hikes in Washington: Trails Everyone Will Love'

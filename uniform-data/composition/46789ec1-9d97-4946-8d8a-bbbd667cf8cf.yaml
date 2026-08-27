@@ -7,16 +7,171 @@ composition:
     title:
       type: text
       locales:
-        en-US: >-
-          Summit & Stone – Quality Products, Helpful Information, Welcoming
-          Service
-    description:
+        en-US: Summit & Stone | Hiking Gear, Advice & Community
+    ogType:
+      type: select
+      value: website
+    ogImage:
+      type: asset
+      value:
+        - _id: f7edaea0-2c9a-4790-83f2-4307897ea710
+          type: image
+          fields:
+            id:
+              type: text
+              value: faa34dab-e3a1-4910-80eb-3f20e76c9593
+            url:
+              value: >-
+                https://img.uniform.global/p/thvstZ7OQtyuIwoj4DLipw/WvG4S4yfQ36D75kdW_2v7w-toomas-tartes-Yizrl9N_eDA-unsplash.jpg
+              type: text
+            file:
+              type: file
+              value: 4522588d-3200-4385-8df3-0b8876895d24
+            size:
+              value: 4173633
+              type: number
+            title:
+              type: text
+              value: Hikers walking towards snow-capped mountains
+            width:
+              value: 4592
+              type: number
+            height:
+              value: 3064
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+            focalPoint:
+              value:
+                x: 0.7
+                'y': 0.6
+              type: focalPoint
+            description:
+              type: text
+              value: >-
+                Two hikers with backpacks walking on a trail through a green
+                mountainous landscape, heading towards a range of snow-capped
+                peaks under a partly cloudy sky.
+          _source: uniform-assets
+          _overrides:
+            fields: {}
+    ogTitle:
+      type: text
+      locales:
+        en-US: Summit & Stone | Hiking Gear, Advice & Community
+    advTheme:
+      type: select
+      value: default
+    geoKeyFacts:
       type: text
       locales:
         en-US: >-
-          Discover Summit & Stone: your destination for quality products,
-          helpful information, and welcoming service. Explore our site to learn
-          more!
+          Summit & Stone focuses on hiking gear and outdoor advice.
+
+          The page features gear for day hikes, weather changes, and long
+          mountain miles.
+
+          Featured gear includes a trail pack, shell jacket, and carbon trekking
+          poles.
+
+          The site also includes biking and climbing topics.
+
+          Summit & Stone welcomes outdoor enthusiasts across experience levels
+          and budgets.
+    geoAiSummary:
+      type: text
+      locales:
+        en-US: >-
+          Summit & Stone is an outdoor destination for hikers and mountain
+          adventurers looking for practical gear guidance and trail-ready
+          products. The page highlights hiking essentials for day hikes,
+          changing weather, and long mountain miles, alongside resources for
+          biking and climbing. Its approach centers on choosing gear that suits
+          a visitor’s trip, body, budget, and preferred outdoor activity rather
+          than simply choosing the most expensive option. Summit & Stone
+          presents trail-tested gear, straightforward advice about equipment
+          tradeoffs, and an inclusive community for newcomers and experienced
+          outdoor enthusiasts. Featured products include packs, shell jackets,
+          and carbon trekking poles.
+    ogDescription:
+      type: text
+      locales:
+        en-US: >-
+          Trail-tested hiking gear, practical outdoor advice, and a welcoming
+          community for your next mountain adventure.
+    aeoDirectAnswer:
+      type: text
+      locales:
+        en-US: >-
+          Summit & Stone offers trail-ready hiking gear, including packs, shell
+          jackets, and trekking poles, plus practical advice for choosing
+          equipment that fits your trip, body, budget, and outdoor goals. It
+          also connects hikers with biking and climbing resources in a welcoming
+          community for every experience level.
+    aeoTargetQueries:
+      type: text
+      locales:
+        en-US: |-
+          What hiking gear do I need for a mountain hike?
+          How do I choose a hiking pack?
+          What is the best shell jacket for changing mountain weather?
+          Where can I get honest outdoor gear advice?
+          What gear is useful for long-distance hiking?
+    geoPrimaryEntity:
+      type: text
+      locales:
+        en-US: Summit & Stone
+    geoRelatedTopics:
+      type: text
+      locales:
+        en-US: >-
+          hiking gear, mountain hiking, trail packs, shell jackets, trekking
+          poles, outdoor advice, mountain biking, climbing, outdoor community
+    seoRobotsMetaTag:
+      type: select
+      value: index, follow
+    seoSchemaOrgType:
+      type: select
+      value: WebPage
+    advAppendBrandName:
+      type: checkbox
+      value: 'false'
+    aeoPrimaryQuestion:
+      type: text
+      locales:
+        en-US: >-
+          Where can I find practical hiking gear and honest outdoor advice for
+          my next mountain adventure?
+    seoMetaDescription:
+      type: text
+      locales:
+        en-US: >-
+          Explore trail-tested hiking gear, practical outdoor advice, and a
+          welcoming community at Summit & Stone. Find the right setup for your
+          next adventure.
+    geoPrimaryEntityType:
+      type: select
+      value: Organization
+    aeoSpeakableSelectors:
+      type: text
+      value: h1, h2, .lead
+    aeoEmitFaqStructuredData:
+      type: checkbox
+      value: 'false'
+    geoExpertiseTrustSignals:
+      type: text
+      locales:
+        en-US: >-
+          Gear is presented as tested for real trail and mountain use.
+
+          Advice emphasizes practical fit, intended trip, budget, and equipment
+          tradeoffs.
+
+          The page provides clear product categories and outdoor activity
+          guidance.
+
+          The site welcomes beginners and experienced outdoor enthusiasts.
   slots:
     content:
       - _id: c6ead1c7-87e6-450e-ada7-77dad7e68696
@@ -34,7 +189,7 @@ composition:
                       value: faa34dab-e3a1-4910-80eb-3f20e76c9593
                     url:
                       value: >-
-                        https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/nJrDUhJMTMiol9MRfwhjJA-toomas-tartes-Yizrl9N_eDA-unsplash.jpg
+                        https://img.uniform.global/p/thvstZ7OQtyuIwoj4DLipw/WvG4S4yfQ36D75kdW_2v7w-toomas-tartes-Yizrl9N_eDA-unsplash.jpg
                       type: text
                     file:
                       type: file
@@ -92,7 +247,7 @@ composition:
                       value: 60647ea9-6b66-4a13-9f60-3a7004cdc0b6
                     url:
                       value: >-
-                        https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/vxnV7D2DS56jJfRDuU8mHQ-ali-kazal-YsrWdRIt5cs-unsplash.jpg
+                        https://img.uniform.global/p/thvstZ7OQtyuIwoj4DLipw/qkdMR9iBSLiV4belA2SI9w-ali-kazal-YsrWdRIt5cs-unsplash.jpg
                       type: text
                     file:
                       type: file
@@ -358,7 +513,7 @@ composition:
                             value: 08d7c6f5-3378-4183-a8c9-7026af26d9da
                           url:
                             value: >-
-                              https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/8glVOI_7TYiyD1GCXMkidw-Trail-Pack.jpg
+                              https://img.uniform.global/p/thvstZ7OQtyuIwoj4DLipw/kEui46klRxekr75MDTYFZA-Trail-Pack.jpg
                             type: text
                           file:
                             type: file
@@ -430,7 +585,7 @@ composition:
                             value: 593e4335-664b-412c-acf0-bd5b4f153b57
                           url:
                             value: >-
-                              https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/ZWWsg1V_ReWwvV8OcgMgsQ-Shell-Jacket.webp
+                              https://img.uniform.global/p/thvstZ7OQtyuIwoj4DLipw/jt4-eyYVQK6PudsRb9yv2Q-Shell-Jacket.webp
                             type: text
                           file:
                             type: file
@@ -502,7 +657,7 @@ composition:
                             value: d870eca8-3bfd-4595-8a9a-e4aac193d8c1
                           url:
                             value: >-
-                              https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/JRXs6SeCTbyrqPXGUtaaSA-summit-poles.avif
+                              https://img.uniform.global/p/thvstZ7OQtyuIwoj4DLipw/nKGm401DR9-AAldOTsKXJQ-summit-poles.avif
                             type: text
                           file:
                             type: file
@@ -809,6 +964,6 @@ composition:
             projectMapId: 2306e874-c252-4238-86a7-fe029f6141ff
   _locales:
     - en-US
-created: '2026-05-05T10:11:27.278704+00:00'
-modified: '2026-08-26T15:45:38.466463+00:00'
+created: '2026-08-27T17:21:03.184428+00:00'
+modified: '2026-08-27T17:36:36.595216+00:00'
 pattern: false

@@ -37,11 +37,15 @@ parameters:
           allowedTypes:
             - image
             - video
+  - id: link
+    name: Link
+    type: link
+    guidance: Optional link to display below the content
 categoryId: cb498c82-0b7e-4c3e-a5f0-7a9b99acbd38
 previewImageUrl: >-
   https://img.uniform.global/p/iS8t_qvQQiyyBWu7kBf5EA/Pi4rrvnuSjKgLs0TDDoOeQ-Screenshot-Content-Block.png
 useTeamPermissions: true
 slots: []
 canBeComposition: false
-created: '2026-05-06T12:26:29.199182+00:00'
-updated: '2026-05-22T06:39:51.325338+00:00'
+created: '2026-08-27T17:20:54.217585+00:00'
+updated: '2026-08-27T18:36:46.218296+00:00'

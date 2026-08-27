@@ -1,6 +1,7 @@
 import { imageFrom } from "@uniformdev/assets";
 
 export const formatDate = (dateField: any): string => {
+  if (!dateField?.datetime) return "";
   return new Date(dateField.datetime).toLocaleDateString("en-US", {
     year: "numeric",
     month: "long",
